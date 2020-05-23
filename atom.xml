@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-21T16:25:33.232Z</updated>
+  <updated>2020-05-23T05:03:47.414Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,133 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX 布局 TilePane</title>
+    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-tilepane/"/>
+    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-tilepane/</id>
+    <published>2020-05-23T03:34:39.000Z</published>
+    <updated>2020-05-23T05:03:47.414Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;TilePane&quot;&gt;&lt;a href=&quot;#TilePane&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 布局 StackPane</title>
+    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-stackpane/"/>
+    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-stackpane/</id>
+    <published>2020-05-23T03:34:27.000Z</published>
+    <updated>2020-05-23T03:41:02.193Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;StackPane&quot;&gt;&lt;a href=&quot;#StackPane&quot; class=&quot;headerlink&quot; title=&quot;StackPane&quot;&gt;&lt;/a&gt;StackPane&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 布局 FlowPane</title>
+    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-flowpane/"/>
+    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-flowpane/</id>
+    <published>2020-05-23T03:34:09.000Z</published>
+    <updated>2020-05-23T03:40:12.742Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;FlowPane&lt;/p&gt;
+&lt;p&gt;水平&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113850.png&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 布局 GridPane</title>
+    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-gridpane/"/>
+    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-gridpane/</id>
+    <published>2020-05-23T03:33:48.000Z</published>
+    <updated>2020-05-23T03:36:20.311Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;GridPane&quot;&gt;&lt;a href=&quot;#GridPane&quot; class=&quot;headerlink&quot; title=&quot;GridPane&quot;&gt;&lt;/a&gt;GridPane&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 布局 BorderPane</title>
+    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-borderpane/"/>
+    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-borderpane/</id>
+    <published>2020-05-23T03:33:26.000Z</published>
+    <updated>2020-05-23T03:38:09.493Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;BorderPane&quot;&gt;&lt;a href=&quot;#BorderPane&quot; class=&quot;headerlink&quot; title=&quot;BorderPane&quot;&gt;&lt;/a&gt;BorderPane&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX 布局 HBox VBox</title>

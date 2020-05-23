@@ -4,6 +4,101 @@
   
     
     <entry>
+      <title>JavaFX 布局 TilePane</title>
+      <link href="/2020/05/23/javafx-bu-ju-tilepane/"/>
+      <url>/2020/05/23/javafx-bu-ju-tilepane/</url>
+      
+        <content type="html"><![CDATA[<h1 id="TilePane"><a href="#TilePane" class="headerlink" title="TilePane"></a>TilePane</h1><blockquote><p>子组件会保持同样大小</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523130334.png" alt=""></p><pre class="line-numbers language-java"><code class="language-java">TilePane root <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TilePane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setAlignment</span><span class="token punctuation">(</span>Pos<span class="token punctuation">.</span>CENTER_LEFT<span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setHgap</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setVgap</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setOrientation</span><span class="token punctuation">(</span>Orientation<span class="token punctuation">.</span>HORIZONTAL<span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setTileAlignment</span><span class="token punctuation">(</span>Pos<span class="token punctuation">.</span>TOP_LEFT<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>    StackPane stackPane <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StackPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    stackPane<span class="token punctuation">.</span><span class="token function">setPrefWidth</span><span class="token punctuation">(</span><span class="token number">80</span> <span class="token operator">-</span> <span class="token number">10</span> <span class="token operator">*</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>    stackPane<span class="token punctuation">.</span><span class="token function">setPrefHeight</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    stackPane<span class="token punctuation">.</span><span class="token function">setStyle</span><span class="token punctuation">(</span><span class="token string">"-fx-background-color: #088"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    root<span class="token punctuation">.</span><span class="token function">getChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>stackPane<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaFX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaFX 布局 StackPane</title>
+      <link href="/2020/05/23/javafx-bu-ju-stackpane/"/>
+      <url>/2020/05/23/javafx-bu-ju-stackpane/</url>
+      
+        <content type="html"><![CDATA[<h1 id="StackPane"><a href="#StackPane" class="headerlink" title="StackPane"></a>StackPane</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523114055.png" alt=""></p><blockquote><p>类似于 FrameLayout</p></blockquote><pre class="line-numbers language-java"><code class="language-java">StackPane root <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">StackPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setAlignment</span><span class="token punctuation">(</span>Pos<span class="token punctuation">.</span>CENTER<span class="token punctuation">)</span><span class="token punctuation">;</span>StackPane<span class="token punctuation">.</span><span class="token function">setAlignment</span><span class="token punctuation">(</span>button1<span class="token punctuation">,</span> Pos<span class="token punctuation">.</span>TOP_LEFT<span class="token punctuation">)</span><span class="token punctuation">;</span>StackPane<span class="token punctuation">.</span><span class="token function">setAlignment</span><span class="token punctuation">(</span>button2<span class="token punctuation">,</span> Pos<span class="token punctuation">.</span>TOP_RIGHT<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaFX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaFX 布局 FlowPane</title>
+      <link href="/2020/05/23/javafx-bu-ju-flowpane/"/>
+      <url>/2020/05/23/javafx-bu-ju-flowpane/</url>
+      
+        <content type="html"><![CDATA[<p>FlowPane</p><p>水平</p><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113850.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113903.png" alt=""></p><p>垂直</p><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113952.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523114004.png" alt=""></p><pre class="line-numbers language-java"><code class="language-java">FlowPane root <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">FlowPane</span><span class="token punctuation">(</span>Orientation<span class="token punctuation">.</span>VERTICAL<span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setHgap</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setVgap</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setAlignment</span><span class="token punctuation">(</span>Pos<span class="token punctuation">.</span>TOP_CENTER<span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setOrientation</span><span class="token punctuation">(</span>Orientation<span class="token punctuation">.</span>VERTICAL<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaFX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaFX 布局 GridPane</title>
+      <link href="/2020/05/23/javafx-bu-ju-gridpane/"/>
+      <url>/2020/05/23/javafx-bu-ju-gridpane/</url>
+      
+        <content type="html"><![CDATA[<h1 id="GridPane"><a href="#GridPane" class="headerlink" title="GridPane"></a>GridPane</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113541.png" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaFX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaFX 布局 BorderPane</title>
+      <link href="/2020/05/23/javafx-bu-ju-borderpane/"/>
+      <url>/2020/05/23/javafx-bu-ju-borderpane/</url>
+      
+        <content type="html"><![CDATA[<h1 id="BorderPane"><a href="#BorderPane" class="headerlink" title="BorderPane"></a>BorderPane</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113747.png" alt=""></p><h2 id="Center-会扩展剩余空间"><a href="#Center-会扩展剩余空间" class="headerlink" title="Center 会扩展剩余空间"></a><strong>Center 会扩展剩余空间</strong></h2><pre class="line-numbers language-java"><code class="language-java">BorderPane root <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BorderPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setTop</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Top"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setLeft</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Left"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setRight</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Right"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setBottom</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Bottom"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>root<span class="token punctuation">.</span><span class="token function">setCenter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Center"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JavaFX </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaFX 布局 HBox VBox</title>
       <link href="/2020/05/22/javafx-bu-ju-hbox-vbox/"/>
       <url>/2020/05/22/javafx-bu-ju-hbox-vbox/</url>
