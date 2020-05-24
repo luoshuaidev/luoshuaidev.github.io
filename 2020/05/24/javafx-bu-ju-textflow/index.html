@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 布局 BorderPane, ">
+    <meta name="keywords" content="JavaFX 布局 TextFlow, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 布局 BorderPane | </title>
+    <title>JavaFX 布局 TextFlow | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/19.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 布局 BorderPane</h1>
+                    <h1 class="description center-align post-title">JavaFX 布局 TextFlow</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-23
+                    2020-05-24
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-23
+                    2020-05-24
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    90
+                    89
                 </div>
                 
 
@@ -466,13 +466,17 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="BorderPane"><a href="#BorderPane" class="headerlink" title="BorderPane"></a>BorderPane</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113747.png" alt=""></p>
-<h2 id="Center-会扩展剩余空间"><a href="#Center-会扩展剩余空间" class="headerlink" title="Center 会扩展剩余空间"></a><strong>Center 会扩展剩余空间</strong></h2><pre class="line-numbers language-java"><code class="language-java">BorderPane root <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BorderPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-root<span class="token punctuation">.</span><span class="token function">setTop</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Top"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-root<span class="token punctuation">.</span><span class="token function">setLeft</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Left"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-root<span class="token punctuation">.</span><span class="token function">setRight</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Right"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-root<span class="token punctuation">.</span><span class="token function">setBottom</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Bottom"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-root<span class="token punctuation">.</span><span class="token function">setCenter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token string">"Center"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <h1 id="TextFlow"><a href="#TextFlow" class="headerlink" title="TextFlow"></a>TextFlow</h1><blockquote>
+<p>子文本控件(Text)自动换行</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215750.png" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215802.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">TextFlow textFlow1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TextFlow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Text text1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">"Text1Text1Text1Text1Text1Text1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Text text2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">"Text2Text2Text2Text2Text2Text2"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textFlow1<span class="token punctuation">.</span><span class="token function">getChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>text1<span class="token punctuation">,</span> text2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+textFlow1<span class="token punctuation">.</span><span class="token function">setTextAlignment</span><span class="token punctuation">(</span>TextAlignment<span class="token punctuation">.</span>CENTER<span class="token punctuation">)</span><span class="token punctuation">;</span>
+textFlow1<span class="token punctuation">.</span><span class="token function">setLineSpacing</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -516,7 +520,7 @@ root<span class="token punctuation">.</span><span class="token function">setCent
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-borderpane/">http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-borderpane/</a>
+                    <a href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/">http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -990,28 +994,26 @@ root<span class="token punctuation">.</span><span class="token function">setCent
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/23/javafx-bu-ju-gridpane/">
+                <a href="/2020/05/24/javafx-bu-ju-titledpane/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/19.jpg" class="responsive-img" alt="JavaFX 布局 GridPane">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="JavaFX 布局 TitledPane">
                         
-                        <span class="card-title">JavaFX 布局 GridPane</span>
+                        <span class="card-title">JavaFX 布局 TitledPane</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            GridPane
-
-        document.querySelectorAll('.github-emoji')
-          .forEach(el => {
-            if (!el.dataset.src)
+                            TitledPane
+VBox vBox = new VBox(new Button("Button1"), new Button("Button2"), new Button("Button3"));
+TitledPane titledP
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-23
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                         </span>
                         <span class="publish-author">
                             
@@ -1039,30 +1041,28 @@ root<span class="token punctuation">.</span><span class="token function">setCent
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/22/javafx-bu-ju-hbox-vbox/">
+                <a href="/2020/05/24/javafx-bu-ju-dialogpane/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/19.jpg" class="responsive-img" alt="JavaFX 布局 HBox VBox">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="JavaFX 布局 DialogPane">
                         
-                        <span class="card-title">JavaFX 布局 HBox VBox</span>
+                        <span class="card-title">JavaFX 布局 DialogPane</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            HBox VBox
+                            DialogPane
+Stage stage = new Stage();
 
-HBoxHBox root = new HBox();
-root.setSpacing(20);
-root.setAlignment(Pos.CENTER);
-VBoxVBox root = new VBox();
-r
+DialogPane dialogPane = new DialogPane();
+dialogPane.setHeaderText("HeaderText");
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
                             </span>
                         <span class="publish-author">
                             
