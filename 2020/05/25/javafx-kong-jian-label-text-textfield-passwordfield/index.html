@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 布局 TitledPane, ">
+    <meta name="keywords" content="JavaFX 控件 Label Text TextField PasswordField, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 布局 TitledPane | </title>
+    <title>JavaFX 控件 Label Text TextField PasswordField | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 布局 TitledPane</h1>
+                    <h1 class="description center-align post-title">JavaFX 控件 Label Text TextField PasswordField</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-05-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-05-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    224
+                    244
                 </div>
                 
 
@@ -466,42 +466,52 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="TitledPane"><a href="#TitledPane" class="headerlink" title="TitledPane"></a>TitledPane</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215950.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java">VBox vBox <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">VBox</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"Button1"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"Button2"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"Button3"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-TitledPane titledPane1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TitledPane</span><span class="token punctuation">(</span><span class="token string">"TitledPane1"</span><span class="token punctuation">,</span> vBox<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//图标方位</span>
-titledPane1<span class="token punctuation">.</span><span class="token function">setNodeOrientation</span><span class="token punctuation">(</span>NodeOrientation<span class="token punctuation">.</span>RIGHT_TO_LEFT<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-VBox vBox2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">VBox</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"Button4"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"Button5"</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"Button6"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-TitledPane titledPane2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TitledPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">setText</span><span class="token punctuation">(</span><span class="token string">"TitledPane2"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">setContent</span><span class="token punctuation">(</span>vBox2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//默认是否展开</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">setExpanded</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//禁用动画</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">setAnimated</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//禁用点击展开收起</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">setCollapsible</span><span class="token punctuation">(</span><span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//设置图标</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">setGraphic</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ImageView</span><span class="token punctuation">(</span><span class="token string">"image\\stash.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//展开收起监听</span>
-titledPane2<span class="token punctuation">.</span><span class="token function">expandedProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>Boolean<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <h1 id="Label-Text-TextField-PasswordField"><a href="#Label-Text-TextField-PasswordField" class="headerlink" title="Label Text TextField PasswordField"></a>Label Text TextField PasswordField</h1><h2 id="Label"><a href="#Label" class="headerlink" title="Label"></a>Label</h2><pre class="line-numbers language-java"><code class="language-java">Label label <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Label</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+label<span class="token punctuation">.</span><span class="token function">setText</span><span class="token punctuation">(</span><span class="token string">"Label"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+label<span class="token punctuation">.</span><span class="token function">setFont</span><span class="token punctuation">(</span>Font<span class="token punctuation">.</span><span class="token function">font</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//颜色</span>
+label<span class="token punctuation">.</span><span class="token function">setTextFill</span><span class="token punctuation">(</span>Paint<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token string">"#088"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="Text"><a href="#Text" class="headerlink" title="Text"></a>Text</h2><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//获取安装的字体</span>
+Font<span class="token punctuation">.</span><span class="token function">getFamilies</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Text text <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//颜色</span>
+text<span class="token punctuation">.</span><span class="token function">setFill</span><span class="token punctuation">(</span>Paint<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token string">"#ccc"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//描边颜色</span>
+text<span class="token punctuation">.</span><span class="token function">setStroke</span><span class="token punctuation">(</span>Paint<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token string">"#0ac"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//描边宽度</span>
+text<span class="token punctuation">.</span><span class="token function">setStrokeWidth</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//描边类型</span>
+text<span class="token punctuation">.</span><span class="token function">setStrokeType</span><span class="token punctuation">(</span>StrokeType<span class="token punctuation">.</span>OUTSIDE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//下划线</span>
+text<span class="token punctuation">.</span><span class="token function">setUnderline</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//中划线</span>
+text<span class="token punctuation">.</span><span class="token function">setStrikethrough</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//平滑</span>
+text<span class="token punctuation">.</span><span class="token function">setSmooth</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+text<span class="token punctuation">.</span><span class="token function">setFontSmoothingType</span><span class="token punctuation">(</span>FontSmoothingType<span class="token punctuation">.</span>LCD<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="TextField"><a href="#TextField" class="headerlink" title="TextField"></a>TextField</h2><pre class="line-numbers language-java"><code class="language-java">TextField textField <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TextField</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textField<span class="token punctuation">.</span><span class="token function">setText</span><span class="token punctuation">(</span><span class="token string">"TextField"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textField<span class="token punctuation">.</span><span class="token function">setFont</span><span class="token punctuation">(</span>Font<span class="token punctuation">.</span><span class="token function">font</span><span class="token punctuation">(</span><span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//悬停提示</span>
+Tooltip tooltip <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Tooltip</span><span class="token punctuation">(</span><span class="token string">"请输入XXX"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textField<span class="token punctuation">.</span><span class="token function">setTooltip</span><span class="token punctuation">(</span>tooltip<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//占位符</span>
+textField<span class="token punctuation">.</span><span class="token function">setPromptText</span><span class="token punctuation">(</span><span class="token string">"请输入XXX"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="监听输入"><a href="#监听输入" class="headerlink" title="监听输入"></a>监听输入</h3><pre class="line-numbers language-java"><code class="language-java">textField<span class="token punctuation">.</span><span class="token function">textProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>String<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">Boolean</span><span class="token operator">></span> observable<span class="token punctuation">,</span> Boolean oldValue<span class="token punctuation">,</span> Boolean newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"observable = "</span> <span class="token operator">+</span> observable <span class="token operator">+</span> <span class="token string">", oldValue = "</span> <span class="token operator">+</span> oldValue <span class="token operator">+</span> <span class="token string">", newValue = "</span> <span class="token operator">+</span> newValue<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="Accordion"><a href="#Accordion" class="headerlink" title="Accordion"></a>Accordion</h2><blockquote>
-<p>TitledPane 组, 组中只有一个可以展开</p>
-</blockquote>
-<pre class="line-numbers language-java"><code class="language-java">Accordion accordion <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Accordion</span><span class="token punctuation">(</span>titledPane1<span class="token punctuation">,</span> titledPane2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-accordion<span class="token punctuation">.</span><span class="token function">expandedPaneProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>TitledPane<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">TitledPane</span><span class="token operator">></span> observable<span class="token punctuation">,</span> TitledPane oldValue<span class="token punctuation">,</span> TitledPane newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"observable = "</span> <span class="token operator">+</span> observable <span class="token operator">+</span> <span class="token string">", oldValue = "</span> <span class="token operator">+</span> oldValue <span class="token operator">+</span> <span class="token string">", newValue = "</span> <span class="token operator">+</span> newValue<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">String</span><span class="token operator">></span> observable<span class="token punctuation">,</span> String oldValue<span class="token punctuation">,</span> String newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>newValue<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">></span> <span class="token number">8</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            textField<span class="token punctuation">.</span><span class="token function">setText</span><span class="token punctuation">(</span>oldValue<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="监听选择"><a href="#监听选择" class="headerlink" title="监听选择"></a>监听选择</h3><pre class="line-numbers language-java"><code class="language-java">textField<span class="token punctuation">.</span><span class="token function">selectedTextProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>String<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">String</span><span class="token operator">></span> observable<span class="token punctuation">,</span> String oldValue<span class="token punctuation">,</span> String newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"observable = "</span> <span class="token operator">+</span> observable <span class="token operator">+</span> <span class="token string">", oldValue = "</span> <span class="token operator">+</span> oldValue <span class="token operator">+</span> <span class="token string">", newValue = "</span> <span class="token operator">+</span> newValue<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="PasswordField"><a href="#PasswordField" class="headerlink" title="PasswordField"></a>PasswordField</h2><pre class="line-numbers language-java"><code class="language-java">PasswordField passwordField <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">PasswordField</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -545,7 +555,7 @@ accordion<span class="token punctuation">.</span><span class="token function">ex
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-titledpane/">http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-titledpane/</a>
+                    <a href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-label-text-textfield-passwordfield/">http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-label-text-textfield-passwordfield/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1019,26 +1029,28 @@ accordion<span class="token punctuation">.</span><span class="token function">ex
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/24/javafx-bu-ju-scrollpane/">
+                <a href="/2020/05/25/javafx-kong-jian-textarea/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/4.jpg" class="responsive-img" alt="JavaFX 布局 ScrollPane">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="JavaFX 控件 TextArea">
                         
-                        <span class="card-title">JavaFX 布局 ScrollPane</span>
+                        <span class="card-title">JavaFX 控件 TextArea</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ScrollPane
-StackPane stackPane = new StackPane();
-stackPane.setStyle("-fx-background-color: #0cc; -fx-background-insets:
+                            TextArea
+TextArea textArea = new TextArea();
+textArea.setPrefColumnCount(20);
+textArea.setPrefRowCount(30);
+textArea.set
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-25
                         </span>
                         <span class="publish-author">
                             
@@ -1066,25 +1078,25 @@ stackPane.setStyle("-fx-background-color: #0cc; -fx-background-insets:
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/24/javafx-bu-ju-textflow/">
+                <a href="/2020/05/24/javafx-bu-ju-tabpane-tab/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/22.jpg" class="responsive-img" alt="JavaFX 布局 TextFlow">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="JavaFX 布局 TabPane&amp;Tab">
                         
-                        <span class="card-title">JavaFX 布局 TextFlow</span>
+                        <span class="card-title">JavaFX 布局 TabPane&amp;Tab</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            TextFlow
-子文本控件(Text)自动换行
+                            TabPane&amp;Tab
 
+TabPane tabPane = new TabPane();
 
-
-TextFlow textFlow1 = new TextFlow();
-Text text1 = new Text("Text1Text1Text1Text1Text1Text1")
+tabPane.setPrefWidth(200);
+tabPane.setPrefHeight(200);
+tabPane.setSty
                         
                     </div>
                     <div class="publish-info">

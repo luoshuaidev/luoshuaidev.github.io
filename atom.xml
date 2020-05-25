@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-24T14:03:03.056Z</updated>
+  <updated>2020-05-25T13:40:05.743Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,107 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX 控件 ImageView</title>
+    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-imageview/"/>
+    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-imageview/</id>
+    <published>2020-05-25T13:16:02.000Z</published>
+    <updated>2020-05-25T13:40:05.743Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;ImageView&quot;&gt;&lt;a href=&quot;#ImageView&quot; class=&quot;headerlink&quot; title=&quot;ImageView&quot;&gt;&lt;/a&gt;ImageView&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;支持格式:&lt;br&gt;BMP GIF JPEG
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 Button</title>
+    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-button/"/>
+    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-button/</id>
+    <published>2020-05-25T13:15:39.000Z</published>
+    <updated>2020-05-25T13:22:57.659Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Button&quot;&gt;&lt;a href=&quot;#Button&quot; class=&quot;headerlink&quot; title=&quot;Button&quot;&gt;&lt;/a&gt;Button&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 TextArea</title>
+    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-textarea/"/>
+    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-textarea/</id>
+    <published>2020-05-25T13:15:19.000Z</published>
+    <updated>2020-05-25T13:24:17.387Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;TextArea&quot;&gt;&lt;a href=&quot;#TextArea&quot; class=&quot;headerlink&quot; title=&quot;TextArea&quot;&gt;&lt;/a&gt;TextArea&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 Label Text TextField PasswordField</title>
+    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-label-text-textfield-passwordfield/"/>
+    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-label-text-textfield-passwordfield/</id>
+    <published>2020-05-25T13:14:50.000Z</published>
+    <updated>2020-05-25T13:21:35.346Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Label-Text-TextField-PasswordField&quot;&gt;&lt;a href=&quot;#Label-Text-TextField-PasswordField&quot; class=&quot;headerlink&quot; title=&quot;Label Text TextField
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX 布局 TabPane&amp;Tab</title>
