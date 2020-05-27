@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-26T14:52:52.558Z</updated>
+  <updated>2020-05-27T13:33:53.083Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,131 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX 控件 ColorPicker</title>
+    <link href="http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-colorpicker/"/>
+    <id>http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-colorpicker/</id>
+    <published>2020-05-27T13:32:37.000Z</published>
+    <updated>2020-05-27T13:33:53.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;ColorPicker&quot;&gt;&lt;a href=&quot;#ColorPicker&quot; class=&quot;headerlink&quot; title=&quot;ColorPicker&quot;&gt;&lt;/a&gt;ColorPicker&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 ButtonBar</title>
+    <link href="http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-buttonbar/"/>
+    <id>http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-buttonbar/</id>
+    <published>2020-05-27T13:32:28.000Z</published>
+    <updated>2020-05-27T13:33:53.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;ButtonBar&quot;&gt;&lt;a href=&quot;#ButtonBar&quot; class=&quot;headerlink&quot; title=&quot;ButtonBar&quot;&gt;&lt;/a&gt;ButtonBar&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 DatePicker</title>
+    <link href="http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-datepicker/"/>
+    <id>http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-datepicker/</id>
+    <published>2020-05-27T13:32:20.000Z</published>
+    <updated>2020-05-27T13:33:53.082Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;DatePicker&quot;&gt;&lt;a href=&quot;#DatePicker&quot; class=&quot;headerlink&quot; title=&quot;DatePicker&quot;&gt;&lt;/a&gt;DatePicker&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 Pagination</title>
+    <link href="http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-pagination/"/>
+    <id>http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-pagination/</id>
+    <published>2020-05-27T13:32:12.000Z</published>
+    <updated>2020-05-27T13:33:53.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Pagination&quot;&gt;&lt;a href=&quot;#Pagination&quot; class=&quot;headerlink&quot; title=&quot;Pagination&quot;&gt;&lt;/a&gt;Pagination&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 Separator</title>
+    <link href="http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-separator/"/>
+    <id>http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-separator/</id>
+    <published>2020-05-27T13:32:03.000Z</published>
+    <updated>2020-05-27T13:33:53.083Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Separator&quot;&gt;&lt;a href=&quot;#Separator&quot; class=&quot;headerlink&quot; title=&quot;Separator&quot;&gt;&lt;/a&gt;Separator&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX 控件 Slider</title>
@@ -381,133 +506,6 @@
         
         
           &lt;h1 id=&quot;StackPane&quot;&gt;&lt;a href=&quot;#StackPane&quot; class=&quot;headerlink&quot; title=&quot;StackPane&quot;&gt;&lt;/a&gt;StackPane&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 FlowPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-flowpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-flowpane/</id>
-    <published>2020-05-23T03:34:09.000Z</published>
-    <updated>2020-05-23T03:40:12.742Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;FlowPane&lt;/p&gt;
-&lt;p&gt;水平&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200523113850.png&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 GridPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-gridpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-gridpane/</id>
-    <published>2020-05-23T03:33:48.000Z</published>
-    <updated>2020-05-23T03:36:20.311Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;GridPane&quot;&gt;&lt;a href=&quot;#GridPane&quot; class=&quot;headerlink&quot; title=&quot;GridPane&quot;&gt;&lt;/a&gt;GridPane&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 BorderPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-borderpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-borderpane/</id>
-    <published>2020-05-23T03:33:26.000Z</published>
-    <updated>2020-05-23T03:38:09.493Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;BorderPane&quot;&gt;&lt;a href=&quot;#BorderPane&quot; class=&quot;headerlink&quot; title=&quot;BorderPane&quot;&gt;&lt;/a&gt;BorderPane&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 HBox VBox</title>
-    <link href="http://luoshuaidev.github.io/2020/05/22/javafx-bu-ju-hbox-vbox/"/>
-    <id>http://luoshuaidev.github.io/2020/05/22/javafx-bu-ju-hbox-vbox/</id>
-    <published>2020-05-21T16:23:25.000Z</published>
-    <updated>2020-05-21T16:25:33.232Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;HBox-VBox&quot;&gt;&lt;a href=&quot;#HBox-VBox&quot; class=&quot;headerlink&quot; title=&quot;HBox VBox&quot;&gt;&lt;/a&gt;HBox VBox&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 AnchorPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/22/javafx-bu-ju-anchorpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/22/javafx-bu-ju-anchorpane/</id>
-    <published>2020-05-21T16:19:00.000Z</published>
-    <updated>2020-05-21T16:22:05.918Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;AnchorPane&quot;&gt;&lt;a href=&quot;#AnchorPane&quot; class=&quot;headerlink&quot; title=&quot;AnchorPane&quot;&gt;&lt;/a&gt;AnchorPane&lt;/h1&gt;&lt;p&gt;&lt;img
         
       
     
