@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 控件 Slider, ">
+    <meta name="keywords" content="JavaFX 控件 Hyperlink WebView HTMLEditor, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 控件 Slider | </title>
+    <title>JavaFX 控件 Hyperlink WebView HTMLEditor | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 控件 Slider</h1>
+                    <h1 class="description center-align post-title">JavaFX 控件 Hyperlink WebView HTMLEditor</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-05-28
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-05-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    183
+                    146
                 </div>
                 
 
@@ -466,46 +466,32 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Slider"><a href="#Slider" class="headerlink" title="Slider"></a>Slider</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200526225242.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//min max value</span>
-Slider slider <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Slider</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//设置当前值</span>
-slider<span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-slider<span class="token punctuation">.</span><span class="token function">setPrefWidth</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-slider<span class="token punctuation">.</span><span class="token function">setMinWidth</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-slider<span class="token punctuation">.</span><span class="token function">setMaxWidth</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//显示标尺</span>
-slider<span class="token punctuation">.</span><span class="token function">setShowTickMarks</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//显示文字</span>
-slider<span class="token punctuation">.</span><span class="token function">setShowTickLabels</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//是否对齐到标尺</span>
-slider<span class="token punctuation">.</span><span class="token function">setSnapToTicks</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//TickLabels 间隔</span>
-slider<span class="token punctuation">.</span><span class="token function">setMajorTickUnit</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//设置键盘控制步长</span>
-slider<span class="token punctuation">.</span><span class="token function">setBlockIncrement</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//垂直显示</span>
-slider<span class="token punctuation">.</span><span class="token function">setOrientation</span><span class="token punctuation">(</span>Orientation<span class="token punctuation">.</span>VERTICAL<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token comment" spellcheck="true">//更改标尺文本</span>
-slider<span class="token punctuation">.</span><span class="token function">setLabelFormatter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">StringConverter</span><span class="token operator">&lt;</span>Double<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <h1 id="Hyperlink-WebView-HTMLEditor"><a href="#Hyperlink-WebView-HTMLEditor" class="headerlink" title="Hyperlink WebView HTMLEditor"></a>Hyperlink WebView HTMLEditor</h1><h2 id="Hyperlink"><a href="#Hyperlink" class="headerlink" title="Hyperlink"></a>Hyperlink</h2><pre class="line-numbers language-java"><code class="language-java">Hyperlink hyperlink <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Hyperlink</span><span class="token punctuation">(</span><span class="token string">"www.baidu.com"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+hyperlink<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> String <span class="token function">toString</span><span class="token punctuation">(</span>Double object<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> object<span class="token punctuation">.</span><span class="token function">intValue</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"X"</span><span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        HostServices hostServices <span class="token operator">=</span> <span class="token function">getHostServices</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        hostServices<span class="token punctuation">.</span><span class="token function">showDocument</span><span class="token punctuation">(</span>hyperlink<span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> Double <span class="token function">fromString</span><span class="token punctuation">(</span>String string<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> null<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//变更监听</span>
-slider<span class="token punctuation">.</span><span class="token function">valueProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>Number<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">Number</span><span class="token operator">></span> observable<span class="token punctuation">,</span> Number oldValue<span class="token punctuation">,</span> Number newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="WebView"><a href="#WebView" class="headerlink" title="WebView"></a>WebView</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528205741.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">WebView webView <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">WebView</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+WebEngine engine <span class="token operator">=</span> webView<span class="token punctuation">.</span><span class="token function">getEngine</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+engine<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token string">"http://www.baidu.com"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+webView<span class="token punctuation">.</span><span class="token function">prefWidthProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span>root<span class="token punctuation">.</span><span class="token function">widthProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+webView<span class="token punctuation">.</span><span class="token function">prefHeightProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span>root<span class="token punctuation">.</span><span class="token function">heightProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//页面历史</span>
+WebHistory history <span class="token operator">=</span> engine<span class="token punctuation">.</span><span class="token function">getHistory</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ObservableList<span class="token operator">&lt;</span>Entry<span class="token operator">></span> historyEntries <span class="token operator">=</span> history<span class="token punctuation">.</span><span class="token function">getEntries</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//前进</span>
+history<span class="token punctuation">.</span><span class="token function">go</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//后退</span>
+history<span class="token punctuation">.</span><span class="token function">go</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="HTMLEditor"><a href="#HTMLEditor" class="headerlink" title="HTMLEditor"></a>HTMLEditor</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528205752.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">HTMLEditor htmlEditor <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">HTMLEditor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+htmlEditor<span class="token punctuation">.</span><span class="token function">setPrefSize</span><span class="token punctuation">(</span><span class="token number">600</span><span class="token punctuation">,</span> <span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//获取内容</span>
+String htmlText <span class="token operator">=</span> htmlEditor<span class="token punctuation">.</span><span class="token function">getHtmlText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -549,7 +535,7 @@ slider<span class="token punctuation">.</span><span class="token function">value
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-slider/">http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-slider/</a>
+                    <a href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/">http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1019,33 +1005,31 @@ slider<span class="token punctuation">.</span><span class="token function">value
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/27/javafx-kong-jian-separator/">
+                <a href="/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/16.jpg" class="responsive-img" alt="JavaFX 控件 Separator">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/10.jpg" class="responsive-img" alt="JavaFX 控件 Hyperlink WebView HTMLEditor">
                         
-                        <span class="card-title">JavaFX 控件 Separator</span>
+                        <span class="card-title">JavaFX 控件 Hyperlink WebView HTMLEditor</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Separator
-Separator separator1 = new Separator();
-Separator separator2 = new Separator();
-
-Button button1 = new Button("
+                            Hyperlink WebView HTMLEditorHyperlinkHyperlink hyperlink = new Hyperlink("www.baidu.com");
+hyperlink.setOnAction(new Eve
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -1054,6 +1038,7 @@ Button button1 = new Button("
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1072,29 +1057,27 @@ Button button1 = new Button("
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/26/javafx-kong-jian-spinner/">
+                <a href="/2020/05/28/javafx-kong-jian-dialog/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/20.jpg" class="responsive-img" alt="JavaFX 控件 Spinner">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="JavaFX 控件 Dialog">
                         
-                        <span class="card-title">JavaFX 控件 Spinner</span>
+                        <span class="card-title">JavaFX 控件 Dialog</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spinner
-样式
-
-//最小, 最大, 默认值, 步长
-Spinner&lt;Integer> spinner1 = new Spinner&lt;>(0, 10, 5, 2);
-Spinner&lt;Double> spinner2 
+                            DialogDialog
+Dialog&lt;ButtonType> dialog = new Dialog&lt;>();
+dialog.setTitle("Title");
+dialog.setHeaderText("HeaderTex
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-28
                             </span>
                         <span class="publish-author">
                             

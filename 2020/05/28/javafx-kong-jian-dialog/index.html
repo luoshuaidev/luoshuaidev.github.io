@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 控件 Slider, ">
+    <meta name="keywords" content="JavaFX 控件 Dialog, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 控件 Slider | </title>
+    <title>JavaFX 控件 Dialog | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/5.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 控件 Slider</h1>
+                    <h1 class="description center-align post-title">JavaFX 控件 Dialog</h1>
                 </div>
             </div>
         </div>
@@ -430,28 +430,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-05-28
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-05-28
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    183
+                    536
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -466,46 +466,143 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Slider"><a href="#Slider" class="headerlink" title="Slider"></a>Slider</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200526225242.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//min max value</span>
-Slider slider <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Slider</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//设置当前值</span>
-slider<span class="token punctuation">.</span><span class="token function">setValue</span><span class="token punctuation">(</span><span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <h1 id="Dialog"><a href="#Dialog" class="headerlink" title="Dialog"></a>Dialog</h1><h2 id="Dialog-1"><a href="#Dialog-1" class="headerlink" title="Dialog"></a>Dialog</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528205834.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">Dialog<span class="token operator">&lt;</span>ButtonType<span class="token operator">></span> dialog <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Dialog</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+dialog<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"Title"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+dialog<span class="token punctuation">.</span><span class="token function">setHeaderText</span><span class="token punctuation">(</span><span class="token string">"HeaderText"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+dialog<span class="token punctuation">.</span><span class="token function">setContentText</span><span class="token punctuation">(</span><span class="token string">"ContentText"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ImageView imageView <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ImageView</span><span class="token punctuation">(</span><span class="token string">"image\\portrait.jpg"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+imageView<span class="token punctuation">.</span><span class="token function">setFitWidth</span><span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+imageView<span class="token punctuation">.</span><span class="token function">setPreserveRatio</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+dialog<span class="token punctuation">.</span><span class="token function">setGraphic</span><span class="token punctuation">(</span>imageView<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-slider<span class="token punctuation">.</span><span class="token function">setPrefWidth</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-slider<span class="token punctuation">.</span><span class="token function">setMinWidth</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-slider<span class="token punctuation">.</span><span class="token function">setMaxWidth</span><span class="token punctuation">(</span><span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//显示标尺</span>
-slider<span class="token punctuation">.</span><span class="token function">setShowTickMarks</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//显示文字</span>
-slider<span class="token punctuation">.</span><span class="token function">setShowTickLabels</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//是否对齐到标尺</span>
-slider<span class="token punctuation">.</span><span class="token function">setSnapToTicks</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//TickLabels 间隔</span>
-slider<span class="token punctuation">.</span><span class="token function">setMajorTickUnit</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//设置键盘控制步长</span>
-slider<span class="token punctuation">.</span><span class="token function">setBlockIncrement</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//垂直显示</span>
-slider<span class="token punctuation">.</span><span class="token function">setOrientation</span><span class="token punctuation">(</span>Orientation<span class="token punctuation">.</span>VERTICAL<span class="token punctuation">)</span><span class="token punctuation">;</span>
+DialogPane dialogPane <span class="token operator">=</span> dialog<span class="token punctuation">.</span><span class="token function">getDialogPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+dialogPane<span class="token punctuation">.</span><span class="token function">setPrefSize</span><span class="token punctuation">(</span><span class="token number">500</span><span class="token punctuation">,</span> <span class="token number">300</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token comment" spellcheck="true">//更改标尺文本</span>
-slider<span class="token punctuation">.</span><span class="token function">setLabelFormatter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">StringConverter</span><span class="token operator">&lt;</span>Double<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ObservableList<span class="token operator">&lt;</span>ButtonType<span class="token operator">></span> buttonTypes <span class="token operator">=</span> dialogPane<span class="token punctuation">.</span><span class="token function">getButtonTypes</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+buttonTypes<span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>OK<span class="token punctuation">,</span> ButtonType<span class="token punctuation">.</span>APPLY<span class="token punctuation">,</span> ButtonType<span class="token punctuation">.</span>CANCEL<span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button btnOk <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span> dialogPane<span class="token punctuation">.</span><span class="token function">lookupButton</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>OK<span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button btnApply <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span> dialogPane<span class="token punctuation">.</span><span class="token function">lookupButton</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>APPLY<span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button btnCancel <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span> dialogPane<span class="token punctuation">.</span><span class="token function">lookupButton</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>CANCEL<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+btnOk<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> String <span class="token function">toString</span><span class="token punctuation">(</span>Double object<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> object<span class="token punctuation">.</span><span class="token function">intValue</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">"X"</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> Double <span class="token function">fromString</span><span class="token punctuation">(</span>String string<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> null<span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"OK"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//变更监听</span>
-slider<span class="token punctuation">.</span><span class="token function">valueProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>Number<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+btnApply<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">Number</span><span class="token operator">></span> observable<span class="token punctuation">,</span> Number oldValue<span class="token punctuation">,</span> Number newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Apply"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+
+btnCancel<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Cancel"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+dialog<span class="token punctuation">.</span><span class="token function">setOnCloseRequest</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>DialogEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>DialogEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"OnCloseRequest"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">/*
+dialog.showAndWait()
+        .filter(response -> response == ButtonType.OK)
+        .ifPresent(response -> System.out.println("doAction"));
+        */</span>
+
+dialog<span class="token punctuation">.</span><span class="token function">showAndWait</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">filter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Predicate</span><span class="token operator">&lt;</span>ButtonType<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">test</span><span class="token punctuation">(</span>ButtonType buttonType<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> buttonType <span class="token operator">==</span> ButtonType<span class="token punctuation">.</span>OK<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ifPresent</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Consumer</span><span class="token operator">&lt;</span>ButtonType<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">accept</span><span class="token punctuation">(</span>ButtonType buttonType<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"doAction"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"阻塞的代码"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+dialog<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"不会阻塞的代码"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">//如果 Dialog&lt;> 泛型不是ButtonType 需要设置 ResultConverter</span>
+<span class="token comment" spellcheck="true">//dialog.setResultConverter(new Callback&lt;ButtonType, ButtonType>() {</span>
+<span class="token comment" spellcheck="true">//    @Override</span>
+<span class="token comment" spellcheck="true">//    public String call(ButtonType param) {</span>
+<span class="token comment" spellcheck="true">//        return "";</span>
+<span class="token comment" spellcheck="true">//    }</span>
+<span class="token comment" spellcheck="true">//});</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="设置左上角小图标"><a href="#设置左上角小图标" class="headerlink" title="设置左上角小图标"></a>设置左上角小图标</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528205908.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//设置左上角小图标</span>
+Stage stage <span class="token operator">=</span> <span class="token punctuation">(</span>Stage<span class="token punctuation">)</span> dialog<span class="token punctuation">.</span><span class="token function">getDialogPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getScene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+stage<span class="token punctuation">.</span><span class="token function">getIcons</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Image</span><span class="token punctuation">(</span><span class="token string">"image/stash.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>//使用与它正在运行的应用程序相同的图标<br><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528205940.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">dialog<span class="token punctuation">.</span><span class="token function">initOwner</span><span class="token punctuation">(</span>primaryStage<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528205959.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">dialog<span class="token punctuation">.</span><span class="token function">initStyle</span><span class="token punctuation">(</span>StageStyle<span class="token punctuation">.</span>UTILITY<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="Alert"><a href="#Alert" class="headerlink" title="Alert"></a>Alert</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528210052.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">Alert alert <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Alert</span><span class="token punctuation">(</span>AlertType<span class="token punctuation">.</span>WARNING<span class="token punctuation">)</span><span class="token punctuation">;</span>
+alert<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"Title"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+alert<span class="token punctuation">.</span><span class="token function">setHeaderText</span><span class="token punctuation">(</span><span class="token string">"HeaderText"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+alert<span class="token punctuation">.</span><span class="token function">setContentText</span><span class="token punctuation">(</span><span class="token string">"ContentText"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button btnOk <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span> alert<span class="token punctuation">.</span><span class="token function">getDialogPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">lookupButton</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>OK<span class="token punctuation">)</span><span class="token punctuation">;</span>
+btnOk<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Ok"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+alert<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="ChoiceDialog"><a href="#ChoiceDialog" class="headerlink" title="ChoiceDialog"></a>ChoiceDialog</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528210115.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">ObservableList<span class="token operator">&lt;</span>String<span class="token operator">></span> itemStrings <span class="token operator">=</span> FXCollections<span class="token punctuation">.</span><span class="token function">observableArrayList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token number">6</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    itemStrings<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token string">"item "</span> <span class="token operator">+</span> i<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+ChoiceDialog<span class="token operator">&lt;</span>String<span class="token operator">></span> choiceDialog <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ChoiceDialog</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+choiceDialog<span class="token punctuation">.</span><span class="token function">setSelectedItem</span><span class="token punctuation">(</span><span class="token string">"item 3"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+choiceDialog<span class="token punctuation">.</span><span class="token function">getItems</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>itemStrings<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+Button btnOk <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span> choiceDialog<span class="token punctuation">.</span><span class="token function">getDialogPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">lookupButton</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>OK<span class="token punctuation">)</span><span class="token punctuation">;</span>
+btnOk<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"Ok"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+choiceDialog<span class="token punctuation">.</span><span class="token function">selectedItemProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>String<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">String</span><span class="token operator">></span> observable<span class="token punctuation">,</span> String oldValue<span class="token punctuation">,</span> String newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="TextInputDialog"><a href="#TextInputDialog" class="headerlink" title="TextInputDialog"></a>TextInputDialog</h2><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200528210146.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">TextInputDialog textInputDialog <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TextInputDialog</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textInputDialog<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"Title"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textInputDialog<span class="token punctuation">.</span><span class="token function">setHeaderText</span><span class="token punctuation">(</span><span class="token string">"HeaderText"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textInputDialog<span class="token punctuation">.</span><span class="token function">setContentText</span><span class="token punctuation">(</span><span class="token string">"ContentText"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button btnOk <span class="token operator">=</span> <span class="token punctuation">(</span>Button<span class="token punctuation">)</span> textInputDialog<span class="token punctuation">.</span><span class="token function">getDialogPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">lookupButton</span><span class="token punctuation">(</span>ButtonType<span class="token punctuation">.</span>OK<span class="token punctuation">)</span><span class="token punctuation">;</span>
+btnOk<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">//输入框中的文本</span>
+        String text <span class="token operator">=</span> textInputDialog<span class="token punctuation">.</span><span class="token function">getEditor</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getText</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//设置左上角小图标</span>
+Stage stage <span class="token operator">=</span> <span class="token punctuation">(</span>Stage<span class="token punctuation">)</span> textInputDialog<span class="token punctuation">.</span><span class="token function">getDialogPane</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getScene</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getWindow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+stage<span class="token punctuation">.</span><span class="token function">getIcons</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Image</span><span class="token punctuation">(</span><span class="token string">"image/stash.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+textInputDialog<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -549,7 +646,7 @@ slider<span class="token punctuation">.</span><span class="token function">value
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-slider/">http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-slider/</a>
+                    <a href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-dialog/">http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-dialog/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1023,28 +1120,25 @@ slider<span class="token punctuation">.</span><span class="token function">value
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/27/javafx-kong-jian-separator/">
+                <a href="/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/16.jpg" class="responsive-img" alt="JavaFX 控件 Separator">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/10.jpg" class="responsive-img" alt="JavaFX 控件 Hyperlink WebView HTMLEditor">
                         
-                        <span class="card-title">JavaFX 控件 Separator</span>
+                        <span class="card-title">JavaFX 控件 Hyperlink WebView HTMLEditor</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Separator
-Separator separator1 = new Separator();
-Separator separator2 = new Separator();
-
-Button button1 = new Button("
+                            Hyperlink WebView HTMLEditorHyperlinkHyperlink hyperlink = new Hyperlink("www.baidu.com");
+hyperlink.setOnAction(new Eve
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-27
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-28
                         </span>
                         <span class="publish-author">
                             
@@ -1072,29 +1166,26 @@ Button button1 = new Button("
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/26/javafx-kong-jian-spinner/">
+                <a href="/2020/05/28/javafx-kong-jian-combobox/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/20.jpg" class="responsive-img" alt="JavaFX 控件 Spinner">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/2.jpg" class="responsive-img" alt="JavaFX 控件 ComboBox">
                         
-                        <span class="card-title">JavaFX 控件 Spinner</span>
+                        <span class="card-title">JavaFX 控件 ComboBox</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Spinner
-样式
-
-//最小, 最大, 默认值, 步长
-Spinner&lt;Integer> spinner1 = new Spinner&lt;>(0, 10, 5, 2);
-Spinner&lt;Double> spinner2 
+                            ComboBox
+基础使用ComboBox&lt;String> comboBox = new ComboBox&lt;>();
+comboBox.getItems().addAll("item1", "item2", "item3", "
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-28
                             </span>
                         <span class="publish-author">
                             

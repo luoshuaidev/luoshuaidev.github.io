@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-27T13:33:53.083Z</updated>
+  <updated>2020-05-28T14:13:23.044Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,106 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX 控件 Hyperlink WebView HTMLEditor</title>
+    <link href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/"/>
+    <id>http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/</id>
+    <published>2020-05-28T12:51:45.000Z</published>
+    <updated>2020-05-28T14:13:23.044Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Hyperlink-WebView-HTMLEditor&quot;&gt;&lt;a href=&quot;#Hyperlink-WebView-HTMLEditor&quot; class=&quot;headerlink&quot; title=&quot;Hyperlink WebView
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 Dialog</title>
+    <link href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-dialog/"/>
+    <id>http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-dialog/</id>
+    <published>2020-05-28T12:51:33.000Z</published>
+    <updated>2020-05-28T14:13:23.044Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Dialog&quot;&gt;&lt;a href=&quot;#Dialog&quot; class=&quot;headerlink&quot; title=&quot;Dialog&quot;&gt;&lt;/a&gt;Dialog&lt;/h1&gt;&lt;h2 id=&quot;Dialog-1&quot;&gt;&lt;a href=&quot;#Dialog-1&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 ComboBox</title>
+    <link href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-combobox/"/>
+    <id>http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-combobox/</id>
+    <published>2020-05-28T12:51:24.000Z</published>
+    <updated>2020-05-28T14:13:23.044Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;ComboBox&quot;&gt;&lt;a href=&quot;#ComboBox&quot; class=&quot;headerlink&quot; title=&quot;ComboBox&quot;&gt;&lt;/a&gt;ComboBox&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 控件 ChoiceBox</title>
+    <link href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-choicebox/"/>
+    <id>http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-choicebox/</id>
+    <published>2020-05-28T12:51:10.000Z</published>
+    <updated>2020-05-28T14:13:23.044Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;ChoiceBox&quot;&gt;&lt;a href=&quot;#ChoiceBox&quot; class=&quot;headerlink&quot; title=&quot;ChoiceBox&quot;&gt;&lt;/a&gt;ChoiceBox&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX 控件 ColorPicker</title>
@@ -406,106 +506,6 @@
         
         
           &lt;h1 id=&quot;TitledPane&quot;&gt;&lt;a href=&quot;#TitledPane&quot; class=&quot;headerlink&quot; title=&quot;TitledPane&quot;&gt;&lt;/a&gt;TitledPane&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 TextFlow</title>
-    <link href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/"/>
-    <id>http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/</id>
-    <published>2020-05-24T13:53:11.000Z</published>
-    <updated>2020-05-24T13:58:09.545Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;TextFlow&quot;&gt;&lt;a href=&quot;#TextFlow&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 DialogPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-dialogpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-dialogpane/</id>
-    <published>2020-05-24T13:52:54.000Z</published>
-    <updated>2020-05-24T13:56:51.968Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;DialogPane&quot;&gt;&lt;a href=&quot;#DialogPane&quot; class=&quot;headerlink&quot; title=&quot;DialogPane&quot;&gt;&lt;/a&gt;DialogPane&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 TilePane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-tilepane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-tilepane/</id>
-    <published>2020-05-23T03:34:39.000Z</published>
-    <updated>2020-05-23T05:03:47.414Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;TilePane&quot;&gt;&lt;a href=&quot;#TilePane&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 StackPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-stackpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/23/javafx-bu-ju-stackpane/</id>
-    <published>2020-05-23T03:34:27.000Z</published>
-    <updated>2020-05-23T03:41:02.193Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;StackPane&quot;&gt;&lt;a href=&quot;#StackPane&quot; class=&quot;headerlink&quot; title=&quot;StackPane&quot;&gt;&lt;/a&gt;StackPane&lt;/h1&gt;&lt;p&gt;&lt;img
         
       
     
