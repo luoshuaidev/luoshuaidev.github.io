@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-28T14:13:23.044Z</updated>
+  <updated>2020-05-29T14:43:27.756Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX Stage</title>
+    <link href="http://luoshuaidev.github.io/2020/05/29/javafx-stage/"/>
+    <id>http://luoshuaidev.github.io/2020/05/29/javafx-stage/</id>
+    <published>2020-05-29T14:37:11.000Z</published>
+    <updated>2020-05-29T14:43:27.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Stage&quot;&gt;&lt;a href=&quot;#Stage&quot; class=&quot;headerlink&quot; title=&quot;Stage&quot;&gt;&lt;/a&gt;Stage&lt;/h1&gt;&lt;h2 id=&quot;尺寸&quot;&gt;&lt;a href=&quot;#尺寸&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 布局操作</title>
+    <link href="http://luoshuaidev.github.io/2020/05/29/javafx-bu-ju-cao-zuo/"/>
+    <id>http://luoshuaidev.github.io/2020/05/29/javafx-bu-ju-cao-zuo/</id>
+    <published>2020-05-29T14:37:00.000Z</published>
+    <updated>2020-05-29T14:43:27.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;布局操作&quot;&gt;&lt;a href=&quot;#布局操作&quot; class=&quot;headerlink&quot; title=&quot;布局操作&quot;&gt;&lt;/a&gt;布局操作&lt;/h1&gt;&lt;h2 id=&quot;添加子控件&quot;&gt;&lt;a href=&quot;#添加子控件&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 尺寸&amp;边界&amp;位置&amp;坐标</title>
+    <link href="http://luoshuaidev.github.io/2020/05/29/javafx-chi-cun-bian-jie-wei-zhi-zuo-biao/"/>
+    <id>http://luoshuaidev.github.io/2020/05/29/javafx-chi-cun-bian-jie-wei-zhi-zuo-biao/</id>
+    <published>2020-05-29T14:36:30.000Z</published>
+    <updated>2020-05-29T14:43:27.756Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;尺寸-amp-边界-amp-位置-amp-坐标&quot;&gt;&lt;a href=&quot;#尺寸-amp-边界-amp-位置-amp-坐标&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX 控件 Hyperlink WebView HTMLEditor</title>
@@ -431,81 +506,6 @@
         
         
           &lt;h1 id=&quot;Label-Text-TextField-PasswordField&quot;&gt;&lt;a href=&quot;#Label-Text-TextField-PasswordField&quot; class=&quot;headerlink&quot; title=&quot;Label Text TextField
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 TabPane&amp;Tab</title>
-    <link href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-tabpane-tab/"/>
-    <id>http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-tabpane-tab/</id>
-    <published>2020-05-24T13:53:56.000Z</published>
-    <updated>2020-05-24T14:03:03.056Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;TabPane-amp-Tab&quot;&gt;&lt;a href=&quot;#TabPane-amp-Tab&quot; class=&quot;headerlink&quot; title=&quot;TabPane&amp;amp;Tab&quot;&gt;&lt;/a&gt;TabPane&amp;amp;Tab&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 ScrollPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-scrollpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-scrollpane/</id>
-    <published>2020-05-24T13:53:47.000Z</published>
-    <updated>2020-05-24T14:01:37.970Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;ScrollPane&quot;&gt;&lt;a href=&quot;#ScrollPane&quot; class=&quot;headerlink&quot; title=&quot;ScrollPane&quot;&gt;&lt;/a&gt;ScrollPane&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局 TitledPane</title>
-    <link href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-titledpane/"/>
-    <id>http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-titledpane/</id>
-    <published>2020-05-24T13:53:37.000Z</published>
-    <updated>2020-05-24T14:00:44.708Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;TitledPane&quot;&gt;&lt;a href=&quot;#TitledPane&quot; class=&quot;headerlink&quot; title=&quot;TitledPane&quot;&gt;&lt;/a&gt;TitledPane&lt;/h1&gt;&lt;p&gt;&lt;img
         
       
     

@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 控件 ButtonBar, ">
+    <meta name="keywords" content="JavaFX 布局操作, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 控件 ButtonBar | </title>
+    <title>JavaFX 布局操作 | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 控件 ButtonBar</h1>
+                    <h1 class="description center-align post-title">JavaFX 布局操作</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-27
+                    2020-05-29
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-27
+                    2020-05-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    101
+                    114
                 </div>
                 
 
@@ -466,17 +466,16 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="ButtonBar"><a href="#ButtonBar" class="headerlink" title="ButtonBar"></a>ButtonBar</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200526231855.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java">ButtonBar buttonBar <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ButtonBar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//排序规则</span>
-buttonBar<span class="token punctuation">.</span><span class="token function">setButtonOrder</span><span class="token punctuation">(</span>ButtonBar<span class="token punctuation">.</span>BUTTON_ORDER_NONE<span class="token punctuation">)</span><span class="token punctuation">;</span>
-Button apply <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"APPLY"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Button okDone <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"DONE"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Button cancelClose <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"CANCEL"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-ButtonBar<span class="token punctuation">.</span><span class="token function">setButtonData</span><span class="token punctuation">(</span>apply<span class="token punctuation">,</span> ButtonData<span class="token punctuation">.</span>APPLY<span class="token punctuation">)</span><span class="token punctuation">;</span>
-ButtonBar<span class="token punctuation">.</span><span class="token function">setButtonData</span><span class="token punctuation">(</span>okDone<span class="token punctuation">,</span> ButtonData<span class="token punctuation">.</span>OK_DONE<span class="token punctuation">)</span><span class="token punctuation">;</span>
-ButtonBar<span class="token punctuation">.</span><span class="token function">setButtonData</span><span class="token punctuation">(</span>cancelClose<span class="token punctuation">,</span> ButtonData<span class="token punctuation">.</span>CANCEL_CLOSE<span class="token punctuation">)</span><span class="token punctuation">;</span>
-buttonBar<span class="token punctuation">.</span><span class="token function">getButtons</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>apply<span class="token punctuation">,</span> okDone<span class="token punctuation">,</span> cancelClose<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <h1 id="布局操作"><a href="#布局操作" class="headerlink" title="布局操作"></a>布局操作</h1><h2 id="添加子控件"><a href="#添加子控件" class="headerlink" title="添加子控件"></a>添加子控件</h2><pre class="line-numbers language-java"><code class="language-java">root<span class="token punctuation">.</span><span class="token function">getChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="监听子控件改变"><a href="#监听子控件改变" class="headerlink" title="监听子控件改变"></a>监听子控件改变</h2><pre class="line-numbers language-java"><code class="language-java">children<span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ListChangeListener</span><span class="token operator">&lt;</span>Node<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">onChanged</span><span class="token punctuation">(</span>Change<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">Node</span><span class="token operator">></span> c<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"c = "</span> <span class="token operator">+</span> c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="隐藏显示"><a href="#隐藏显示" class="headerlink" title="隐藏显示"></a>隐藏显示</h2><pre class="line-numbers language-java"><code class="language-java">button<span class="token punctuation">.</span><span class="token function">setManaged</span><span class="token punctuation">(</span><span class="token keyword">boolean</span> value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//Visible/Gone</span>
+button<span class="token punctuation">.</span><span class="token function">setVisible</span><span class="token punctuation">(</span><span class="token keyword">boolean</span> value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//Visible/inVisible</span>
+button<span class="token punctuation">.</span><span class="token function">setOpacity</span><span class="token punctuation">(</span><span class="token keyword">boolean</span> value<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//透明度</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -520,7 +519,7 @@ buttonBar<span class="token punctuation">.</span><span class="token function">ge
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-buttonbar/">http://luoshuaidev.github.io/2020/05/27/javafx-kong-jian-buttonbar/</a>
+                    <a href="http://luoshuaidev.github.io/2020/05/29/javafx-bu-ju-cao-zuo/">http://luoshuaidev.github.io/2020/05/29/javafx-bu-ju-cao-zuo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -994,28 +993,27 @@ buttonBar<span class="token punctuation">.</span><span class="token function">ge
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/27/javafx-kong-jian-colorpicker/">
+                <a href="/2020/05/29/javafx-stage/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/12.jpg" class="responsive-img" alt="JavaFX 控件 ColorPicker">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/2.jpg" class="responsive-img" alt="JavaFX Stage">
                         
-                        <span class="card-title">JavaFX 控件 ColorPicker</span>
+                        <span class="card-title">JavaFX Stage</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ColorPicker
-ColorPicker colorPicker = new ColorPicker();
-//设置Color
-colorPicker.setValue(Color.valueOf("#00cccc"));
-//获取C
+                            Stage尺寸primaryStage.setWidth(600);
+primaryStage.setHeight(600);
+primaryStage.setMaxWidth(1000);
+primaryStage.setMaxHeigh
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-27
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-29
                         </span>
                         <span class="publish-author">
                             
@@ -1043,29 +1041,27 @@ colorPicker.setValue(Color.valueOf("#00cccc"));
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/27/javafx-kong-jian-datepicker/">
+                <a href="/2020/05/29/javafx-chi-cun-bian-jie-wei-zhi-zuo-biao/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="JavaFX 控件 DatePicker">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="JavaFX 尺寸&amp;边界&amp;位置&amp;坐标">
                         
-                        <span class="card-title">JavaFX 控件 DatePicker</span>
+                        <span class="card-title">JavaFX 尺寸&amp;边界&amp;位置&amp;坐标</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            DatePicker
-DatePicker datePicker = new DatePicker(LocalDate.now());
-datePicker.setEditable(false);
-
-//选择监听
-datePicker.va
+                            尺寸&amp;边界&amp;位置&amp;坐标min max pre
+Button button = new Button("ButtonButtonButtonButton");
+button.setMinWidth(100);
+butt
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-29
                             </span>
                         <span class="publish-author">
                             
