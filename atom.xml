@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-29T14:43:27.756Z</updated>
+  <updated>2020-05-31T06:20:41.470Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,107 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX Effect</title>
+    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-effect/"/>
+    <id>http://luoshuaidev.github.io/2020/05/30/javafx-effect/</id>
+    <published>2020-05-30T02:49:01.000Z</published>
+    <updated>2020-05-31T06:20:41.470Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Effect&quot;&gt;&lt;a href=&quot;#Effect&quot; class=&quot;headerlink&quot; title=&quot;Effect&quot;&gt;&lt;/a&gt;Effect&lt;/h1&gt;&lt;h2 id=&quot;DropShadow&quot;&gt;&lt;a href=&quot;#DropShadow&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 背景填充 线性渐变  径向渐变</title>
+    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-bei-jing-tian-chong-xian-xing-jian-bian-jing-xiang-jian-bian/"/>
+    <id>http://luoshuaidev.github.io/2020/05/30/javafx-bei-jing-tian-chong-xian-xing-jian-bian-jing-xiang-jian-bian/</id>
+    <published>2020-05-30T02:48:53.000Z</published>
+    <updated>2020-05-31T06:11:17.308Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/JavaFX/20200531140504912.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;pre
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX CSS</title>
+    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-css/"/>
+    <id>http://luoshuaidev.github.io/2020/05/30/javafx-css/</id>
+    <published>2020-05-30T02:48:45.000Z</published>
+    <updated>2020-05-31T06:11:17.308Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;CSS&quot;&gt;&lt;a href=&quot;#CSS&quot; class=&quot;headerlink&quot; title=&quot;CSS&quot;&gt;&lt;/a&gt;CSS&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 边框&amp;背景</title>
+    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-bian-kuang-bei-jing/"/>
+    <id>http://luoshuaidev.github.io/2020/05/30/javafx-bian-kuang-bei-jing/</id>
+    <published>2020-05-30T02:48:18.000Z</published>
+    <updated>2020-05-31T06:11:17.308Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;边框-amp-背景&quot;&gt;&lt;a href=&quot;#边框-amp-背景&quot; class=&quot;headerlink&quot; title=&quot;边框&amp;amp;背景&quot;&gt;&lt;/a&gt;边框&amp;amp;背景&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX Stage</title>
@@ -405,107 +506,6 @@
         
         
           &lt;h1 id=&quot;RadioButton-amp-CheckBox&quot;&gt;&lt;a href=&quot;#RadioButton-amp-CheckBox&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 ImageView</title>
-    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-imageview/"/>
-    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-imageview/</id>
-    <published>2020-05-25T13:16:02.000Z</published>
-    <updated>2020-05-25T13:40:05.743Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;ImageView&quot;&gt;&lt;a href=&quot;#ImageView&quot; class=&quot;headerlink&quot; title=&quot;ImageView&quot;&gt;&lt;/a&gt;ImageView&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;支持格式:&lt;br&gt;BMP GIF JPEG
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 Button</title>
-    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-button/"/>
-    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-button/</id>
-    <published>2020-05-25T13:15:39.000Z</published>
-    <updated>2020-05-25T13:22:57.659Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Button&quot;&gt;&lt;a href=&quot;#Button&quot; class=&quot;headerlink&quot; title=&quot;Button&quot;&gt;&lt;/a&gt;Button&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 TextArea</title>
-    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-textarea/"/>
-    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-textarea/</id>
-    <published>2020-05-25T13:15:19.000Z</published>
-    <updated>2020-05-25T13:24:17.387Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;TextArea&quot;&gt;&lt;a href=&quot;#TextArea&quot; class=&quot;headerlink&quot; title=&quot;TextArea&quot;&gt;&lt;/a&gt;TextArea&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 Label Text TextField PasswordField</title>
-    <link href="http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-label-text-textfield-passwordfield/"/>
-    <id>http://luoshuaidev.github.io/2020/05/25/javafx-kong-jian-label-text-textfield-passwordfield/</id>
-    <published>2020-05-25T13:14:50.000Z</published>
-    <updated>2020-05-25T13:21:35.346Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Label-Text-TextField-PasswordField&quot;&gt;&lt;a href=&quot;#Label-Text-TextField-PasswordField&quot; class=&quot;headerlink&quot; title=&quot;Label Text TextField
         
       
     
