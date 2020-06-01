@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 布局 TextFlow, ">
+    <meta name="keywords" content="Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 布局 TextFlow | </title>
+    <title>Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 布局 TextFlow</h1>
+                    <h1 class="description center-align post-title">Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-06-01
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-06-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    89
+                    180
                 </div>
                 
 
@@ -466,17 +466,19 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="TextFlow"><a href="#TextFlow" class="headerlink" title="TextFlow"></a>TextFlow</h1><blockquote>
-<p>子文本控件(Text)自动换行</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215750.png" alt=""></p>
-<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215802.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java">TextFlow textFlow1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TextFlow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Text text1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">"Text1Text1Text1Text1Text1Text1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Text text2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">"Text2Text2Text2Text2Text2Text2"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-textFlow1<span class="token punctuation">.</span><span class="token function">getChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>text1<span class="token punctuation">,</span> text2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-textFlow1<span class="token punctuation">.</span><span class="token function">setTextAlignment</span><span class="token punctuation">(</span>TextAlignment<span class="token punctuation">.</span>CENTER<span class="token punctuation">)</span><span class="token punctuation">;</span>
-textFlow1<span class="token punctuation">.</span><span class="token function">setLineSpacing</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <pre class="line-numbers language-java"><code class="language-java">Exception in Application start method
+java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>reflect<span class="token punctuation">.</span>InvocationTargetException
+Caused by<span class="token operator">:</span> java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>RuntimeException<span class="token operator">:</span> Exception in Application start method
+    at javafx<span class="token punctuation">.</span>graphics<span class="token operator">/</span>com<span class="token punctuation">.</span>sun<span class="token punctuation">.</span>javafx<span class="token punctuation">.</span>application<span class="token punctuation">.</span>LauncherImpl<span class="token punctuation">.</span><span class="token function">launchApplication1</span><span class="token punctuation">(</span>LauncherImpl<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">900</span><span class="token punctuation">)</span>
+    at javafx<span class="token punctuation">.</span>graphics<span class="token operator">/</span>com<span class="token punctuation">.</span>sun<span class="token punctuation">.</span>javafx<span class="token punctuation">.</span>application<span class="token punctuation">.</span>LauncherImpl<span class="token punctuation">.</span>lambda$launchApplication$<span class="token function">2</span><span class="token punctuation">(</span>LauncherImpl<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">195</span><span class="token punctuation">)</span>
+    at java<span class="token punctuation">.</span>base<span class="token operator">/</span>java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>Thread<span class="token punctuation">.</span><span class="token function">run</span><span class="token punctuation">(</span>Thread<span class="token punctuation">.</span>java<span class="token operator">:</span><span class="token number">834</span><span class="token punctuation">)</span>
+Caused by<span class="token operator">:</span> java<span class="token punctuation">.</span>lang<span class="token punctuation">.</span>IllegalAccessError<span class="token operator">:</span> <span class="token keyword">class</span> <span class="token class-name">com<span class="token punctuation">.</span>sun<span class="token punctuation">.</span>javafx<span class="token punctuation">.</span>fxml<span class="token punctuation">.</span>FXMLLoaderHelper</span> <span class="token punctuation">(</span>in unnamed module <span class="token annotation punctuation">@0x188c2166</span><span class="token punctuation">)</span> cannot access <span class="token keyword">class</span> <span class="token class-name">com<span class="token punctuation">.</span>sun<span class="token punctuation">.</span>javafx<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Utils</span> <span class="token punctuation">(</span>in module javafx<span class="token punctuation">.</span>graphics<span class="token punctuation">)</span> because module javafx<span class="token punctuation">.</span>graphics does not export com<span class="token punctuation">.</span>sun<span class="token punctuation">.</span>javafx<span class="token punctuation">.</span>util to unnamed module <span class="token annotation punctuation">@0x188c2166</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>直接启动 <code>App.class</code> 会报上面的错误</p>
+<h2 id="新建一个-class"><a href="#新建一个-class" class="headerlink" title="新建一个 class"></a>新建一个 class</h2><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Launcher</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span>String args<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        Application<span class="token punctuation">.</span><span class="token function">launch</span><span class="token punctuation">(</span>App<span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">,</span> args<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -520,7 +522,7 @@ textFlow1<span class="token punctuation">.</span><span class="token function">se
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/">http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/</a>
+                    <a href="http://luoshuaidev.github.io/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/">http://luoshuaidev.github.io/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -990,31 +992,32 @@ textFlow1<span class="token punctuation">.</span><span class="token function">se
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/05/24/javafx-bu-ju-titledpane/">
+                <a href="/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="JavaFX 布局 TitledPane">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export">
                         
-                        <span class="card-title">JavaFX 布局 TitledPane</span>
+                        <span class="card-title">Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            TitledPane
-VBox vBox = new VBox(new Button("Button1"), new Button("Button2"), new Button("Button3"));
-TitledPane titledP
+                            Exception in Application start method
+java.lang.reflect.InvocationTargetException
+Caused by: java.lang.RuntimeException:
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -1023,6 +1026,7 @@ TitledPane titledP
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1041,28 +1045,25 @@ TitledPane titledP
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/24/javafx-bu-ju-dialogpane/">
+                <a href="/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="JavaFX 布局 DialogPane">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/22.jpg" class="responsive-img" alt="JavaFX 读取剪切板图片并保存图片到本地">
                         
-                        <span class="card-title">JavaFX 布局 DialogPane</span>
+                        <span class="card-title">JavaFX 读取剪切板图片并保存图片到本地</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            DialogPane
-Stage stage = new Stage();
-
-DialogPane dialogPane = new DialogPane();
-dialogPane.setHeaderText("HeaderText");
+                            JavaFX 读取剪切板图片并保存图片到本地使用 JavaFX Clipboard APIClipboard clipboard = Clipboard.getSystemClipboard();
+Image image = clipboa
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-31
                             </span>
                         <span class="publish-author">
                             

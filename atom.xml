@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-05-31T06:20:41.470Z</updated>
+  <updated>2020-06-01T15:34:19.677Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export</title>
+    <link href="http://luoshuaidev.github.io/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/"/>
+    <id>http://luoshuaidev.github.io/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/</id>
+    <published>2020-06-01T15:33:37.000Z</published>
+    <updated>2020-06-01T15:34:19.677Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre class=&quot;line-numbers language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;Exception in Application start method
+java&lt;span class=&quot;token
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 读取剪切板图片并保存图片到本地</title>
+    <link href="http://luoshuaidev.github.io/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/"/>
+    <id>http://luoshuaidev.github.io/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/</id>
+    <published>2020-05-31T08:20:04.000Z</published>
+    <updated>2020-06-01T14:08:01.371Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JavaFX-读取剪切板图片并保存图片到本地&quot;&gt;&lt;a href=&quot;#JavaFX-读取剪切板图片并保存图片到本地&quot; class=&quot;headerlink&quot; title=&quot;JavaFX 读取剪切板图片并保存图片到本地&quot;&gt;&lt;/a&gt;JavaFX
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX Effect</title>
@@ -456,56 +507,6 @@
         
         
           &lt;h1 id=&quot;Spinner&quot;&gt;&lt;a href=&quot;#Spinner&quot; class=&quot;headerlink&quot; title=&quot;Spinner&quot;&gt;&lt;/a&gt;Spinner&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 ProgressBar&amp;ProgressIndicator</title>
-    <link href="http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-progressbar-progressindicator/"/>
-    <id>http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-progressbar-progressindicator/</id>
-    <published>2020-05-26T14:51:00.000Z</published>
-    <updated>2020-05-26T15:04:36.609Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;ProgressBar-amp-ProgressIndicator&quot;&gt;&lt;a href=&quot;#ProgressBar-amp-ProgressIndicator&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 RadioButton&amp;CheckBox</title>
-    <link href="http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-radiobutton-checkbox/"/>
-    <id>http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-radiobutton-checkbox/</id>
-    <published>2020-05-26T14:50:29.000Z</published>
-    <updated>2020-05-26T15:03:04.397Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;RadioButton-amp-CheckBox&quot;&gt;&lt;a href=&quot;#RadioButton-amp-CheckBox&quot; class=&quot;headerlink&quot;
         
       
     

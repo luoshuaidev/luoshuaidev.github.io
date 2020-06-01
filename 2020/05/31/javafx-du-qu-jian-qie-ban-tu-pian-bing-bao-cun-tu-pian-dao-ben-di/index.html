@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 布局 TextFlow, ">
+    <meta name="keywords" content="JavaFX 读取剪切板图片并保存图片到本地, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 布局 TextFlow | </title>
+    <title>JavaFX 读取剪切板图片并保存图片到本地 | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -293,7 +293,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 布局 TextFlow</h1>
+                    <h1 class="description center-align post-title">JavaFX 读取剪切板图片并保存图片到本地</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-05-31
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-24
+                    2020-06-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    89
+                    258
                 </div>
                 
 
@@ -466,17 +466,34 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="TextFlow"><a href="#TextFlow" class="headerlink" title="TextFlow"></a>TextFlow</h1><blockquote>
-<p>子文本控件(Text)自动换行</p>
-</blockquote>
-<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215750.png" alt=""></p>
-<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200524215802.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java">TextFlow textFlow1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">TextFlow</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Text text1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">"Text1Text1Text1Text1Text1Text1"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Text text2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Text</span><span class="token punctuation">(</span><span class="token string">"Text2Text2Text2Text2Text2Text2"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-textFlow1<span class="token punctuation">.</span><span class="token function">getChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>text1<span class="token punctuation">,</span> text2<span class="token punctuation">)</span><span class="token punctuation">;</span>
-textFlow1<span class="token punctuation">.</span><span class="token function">setTextAlignment</span><span class="token punctuation">(</span>TextAlignment<span class="token punctuation">.</span>CENTER<span class="token punctuation">)</span><span class="token punctuation">;</span>
-textFlow1<span class="token punctuation">.</span><span class="token function">setLineSpacing</span><span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <h1 id="JavaFX-读取剪切板图片并保存图片到本地"><a href="#JavaFX-读取剪切板图片并保存图片到本地" class="headerlink" title="JavaFX 读取剪切板图片并保存图片到本地"></a>JavaFX 读取剪切板图片并保存图片到本地</h1><h2 id="使用-JavaFX-Clipboard-API"><a href="#使用-JavaFX-Clipboard-API" class="headerlink" title="使用 JavaFX Clipboard API"></a>使用 JavaFX Clipboard API</h2><pre class="line-numbers language-java"><code class="language-java">Clipboard clipboard <span class="token operator">=</span> Clipboard<span class="token punctuation">.</span><span class="token function">getSystemClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Image image <span class="token operator">=</span> clipboard<span class="token punctuation">.</span><span class="token function">getImage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+BufferedImage bImage <span class="token operator">=</span> SwingFXUtils<span class="token punctuation">.</span><span class="token function">fromFXImage</span><span class="token punctuation">(</span>image<span class="token punctuation">,</span> null<span class="token punctuation">)</span><span class="token punctuation">;</span>
+File file <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token string">"D:/image.png"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ImageIO<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>bImage<span class="token punctuation">,</span> <span class="token string">"png"</span><span class="token punctuation">,</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>QQ 微信 有道云笔记 win10自带截图等 保存后的图片正常</p>
+<p>Snipaste FastStone 截图, 看图工具中复制图片, 保存后的图片是透明的, 没有颜色</p>
+<h2 id="使用-Awt-Clipboard-API"><a href="#使用-Awt-Clipboard-API" class="headerlink" title="使用 Awt Clipboard API"></a>使用 Awt Clipboard API</h2><pre class="line-numbers language-java"><code class="language-java">Image image <span class="token operator">=</span> <span class="token function">getImageFromClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+File file <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token string">"D:/image.png"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//转成jpg</span>
+<span class="token comment" spellcheck="true">//BufferedImage bufferedImage = new BufferedImage(image.getWidth(null), image.getHeight(null), BufferedImage.TYPE_INT_RGB);</span>
+<span class="token comment" spellcheck="true">//转成png</span>
+BufferedImage bufferedImage <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BufferedImage</span><span class="token punctuation">(</span>image<span class="token punctuation">.</span><span class="token function">getWidth</span><span class="token punctuation">(</span>null<span class="token punctuation">)</span><span class="token punctuation">,</span> image<span class="token punctuation">.</span><span class="token function">getHeight</span><span class="token punctuation">(</span>null<span class="token punctuation">)</span><span class="token punctuation">,</span> BufferedImage<span class="token punctuation">.</span>TYPE_INT_ARGB<span class="token punctuation">)</span><span class="token punctuation">;</span>
+Graphics2D g <span class="token operator">=</span> bufferedImage<span class="token punctuation">.</span><span class="token function">createGraphics</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+g<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span>image<span class="token punctuation">,</span> null<span class="token punctuation">,</span> null<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//ImageIO.write(bufferedImage, "jpg", file);</span>
+ImageIO<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>bufferedImage<span class="token punctuation">,</span> <span class="token string">"png"</span><span class="token punctuation">,</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">public</span> <span class="token keyword">static</span> Image <span class="token function">getImageFromClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> Exception <span class="token punctuation">{</span>
+    Clipboard sysc <span class="token operator">=</span> Toolkit<span class="token punctuation">.</span><span class="token function">getDefaultToolkit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getSystemClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    Transferable cc <span class="token operator">=</span> sysc<span class="token punctuation">.</span><span class="token function">getContents</span><span class="token punctuation">(</span>null<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>cc <span class="token operator">==</span> null<span class="token punctuation">)</span>
+        <span class="token keyword">return</span> null<span class="token punctuation">;</span>
+    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>cc<span class="token punctuation">.</span><span class="token function">isDataFlavorSupported</span><span class="token punctuation">(</span>DataFlavor<span class="token punctuation">.</span>imageFlavor<span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>Image<span class="token punctuation">)</span> cc<span class="token punctuation">.</span><span class="token function">getTransferData</span><span class="token punctuation">(</span>DataFlavor<span class="token punctuation">.</span>imageFlavor<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> null<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>测试的这些软件都能正常保存</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -520,7 +537,7 @@ textFlow1<span class="token punctuation">.</span><span class="token function">se
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/">http://luoshuaidev.github.io/2020/05/24/javafx-bu-ju-textflow/</a>
+                    <a href="http://luoshuaidev.github.io/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/">http://luoshuaidev.github.io/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -994,26 +1011,26 @@ textFlow1<span class="token punctuation">.</span><span class="token function">se
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/24/javafx-bu-ju-titledpane/">
+                <a href="/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/11.jpg" class="responsive-img" alt="JavaFX 布局 TitledPane">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export">
                         
-                        <span class="card-title">JavaFX 布局 TitledPane</span>
+                        <span class="card-title">Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            TitledPane
-VBox vBox = new VBox(new Button("Button1"), new Button("Button2"), new Button("Button3"));
-TitledPane titledP
+                            Exception in Application start method
+java.lang.reflect.InvocationTargetException
+Caused by: java.lang.RuntimeException:
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-01
                         </span>
                         <span class="publish-author">
                             
@@ -1041,28 +1058,35 @@ TitledPane titledP
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/24/javafx-bu-ju-dialogpane/">
+                <a href="/2020/05/30/javafx-effect/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/23.jpg" class="responsive-img" alt="JavaFX 布局 DialogPane">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="JavaFX Effect">
                         
-                        <span class="card-title">JavaFX 布局 DialogPane</span>
+                        <span class="card-title">JavaFX Effect</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            DialogPane
-Stage stage = new Stage();
-
-DialogPane dialogPane = new DialogPane();
-dialogPane.setHeaderText("HeaderText");
+                            EffectDropShadow
+InnerShadow
+Shadow
+BoxBlur
+GaussianBlur
+MotionBlur
+Bloom
+Glow
+SepiaTone
+Reflection
+ColorAdjust
+Lighting
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-24
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-30
                             </span>
                         <span class="publish-author">
                             
