@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 读取剪切板图片并保存图片到本地, ">
+    <meta name="keywords" content="JavaFX Menu MenuBar&amp;Menu&amp;MenuItem, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 读取剪切板图片并保存图片到本地 | </title>
+    <title>JavaFX Menu MenuBar&amp;Menu&amp;MenuItem | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/22.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 读取剪切板图片并保存图片到本地</h1>
+                    <h1 class="description center-align post-title">JavaFX Menu MenuBar&amp;Menu&amp;MenuItem</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-31
+                    2020-07-02
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-06-01
+                    2020-07-02
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    258
+                    212
                 </div>
                 
 
@@ -466,34 +466,51 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="JavaFX-读取剪切板图片并保存图片到本地"><a href="#JavaFX-读取剪切板图片并保存图片到本地" class="headerlink" title="JavaFX 读取剪切板图片并保存图片到本地"></a>JavaFX 读取剪切板图片并保存图片到本地</h1><h2 id="使用-JavaFX-Clipboard-API"><a href="#使用-JavaFX-Clipboard-API" class="headerlink" title="使用 JavaFX Clipboard API"></a>使用 JavaFX Clipboard API</h2><pre class="line-numbers language-java"><code class="language-java">Clipboard clipboard <span class="token operator">=</span> Clipboard<span class="token punctuation">.</span><span class="token function">getSystemClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Image image <span class="token operator">=</span> clipboard<span class="token punctuation">.</span><span class="token function">getImage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-BufferedImage bImage <span class="token operator">=</span> SwingFXUtils<span class="token punctuation">.</span><span class="token function">fromFXImage</span><span class="token punctuation">(</span>image<span class="token punctuation">,</span> null<span class="token punctuation">)</span><span class="token punctuation">;</span>
-File file <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token string">"D:/image.png"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-ImageIO<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>bImage<span class="token punctuation">,</span> <span class="token string">"png"</span><span class="token punctuation">,</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>QQ 微信 有道云笔记 win10自带截图等 保存后的图片正常</p>
-<p>Snipaste FastStone 截图, 看图工具中复制图片, 保存后的图片是透明的, 没有颜色</p>
-<h2 id="使用-Awt-Clipboard-API"><a href="#使用-Awt-Clipboard-API" class="headerlink" title="使用 Awt Clipboard API"></a>使用 Awt Clipboard API</h2><pre class="line-numbers language-java"><code class="language-java">Image image <span class="token operator">=</span> <span class="token function">getImageFromClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-File file <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">File</span><span class="token punctuation">(</span><span class="token string">"D:/image.png"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//转成jpg</span>
-<span class="token comment" spellcheck="true">//BufferedImage bufferedImage = new BufferedImage(image.getWidth(null), image.getHeight(null), BufferedImage.TYPE_INT_RGB);</span>
-<span class="token comment" spellcheck="true">//转成png</span>
-BufferedImage bufferedImage <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BufferedImage</span><span class="token punctuation">(</span>image<span class="token punctuation">.</span><span class="token function">getWidth</span><span class="token punctuation">(</span>null<span class="token punctuation">)</span><span class="token punctuation">,</span> image<span class="token punctuation">.</span><span class="token function">getHeight</span><span class="token punctuation">(</span>null<span class="token punctuation">)</span><span class="token punctuation">,</span> BufferedImage<span class="token punctuation">.</span>TYPE_INT_ARGB<span class="token punctuation">)</span><span class="token punctuation">;</span>
-Graphics2D g <span class="token operator">=</span> bufferedImage<span class="token punctuation">.</span><span class="token function">createGraphics</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-g<span class="token punctuation">.</span><span class="token function">drawImage</span><span class="token punctuation">(</span>image<span class="token punctuation">,</span> null<span class="token punctuation">,</span> null<span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//ImageIO.write(bufferedImage, "jpg", file);</span>
-ImageIO<span class="token punctuation">.</span><span class="token function">write</span><span class="token punctuation">(</span>bufferedImage<span class="token punctuation">,</span> <span class="token string">"png"</span><span class="token punctuation">,</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <h1 id="MenuBar-amp-Menu-amp-MenuItem"><a href="#MenuBar-amp-Menu-amp-MenuItem" class="headerlink" title="MenuBar&amp;Menu&amp;MenuItem"></a>MenuBar&amp;Menu&amp;MenuItem</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/JavaFX/20200702202233284.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">MenuBar menuBar <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MenuBar</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Menu menu1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Menu</span><span class="token punctuation">(</span><span class="token string">"File"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Menu menu2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Menu</span><span class="token punctuation">(</span><span class="token string">"Edit"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Menu menu3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Menu</span><span class="token punctuation">(</span><span class="token string">"Help"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+menuBar<span class="token punctuation">.</span><span class="token function">getMenus</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>menu1<span class="token punctuation">,</span> menu2<span class="token punctuation">,</span> menu3<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-<span class="token keyword">public</span> <span class="token keyword">static</span> Image <span class="token function">getImageFromClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token keyword">throws</span> Exception <span class="token punctuation">{</span>
-    Clipboard sysc <span class="token operator">=</span> Toolkit<span class="token punctuation">.</span><span class="token function">getDefaultToolkit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">getSystemClipboard</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    Transferable cc <span class="token operator">=</span> sysc<span class="token punctuation">.</span><span class="token function">getContents</span><span class="token punctuation">(</span>null<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span>cc <span class="token operator">==</span> null<span class="token punctuation">)</span>
-        <span class="token keyword">return</span> null<span class="token punctuation">;</span>
-    <span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>cc<span class="token punctuation">.</span><span class="token function">isDataFlavorSupported</span><span class="token punctuation">(</span>DataFlavor<span class="token punctuation">.</span>imageFlavor<span class="token punctuation">)</span><span class="token punctuation">)</span>
-        <span class="token keyword">return</span> <span class="token punctuation">(</span>Image<span class="token punctuation">)</span> cc<span class="token punctuation">.</span><span class="token function">getTransferData</span><span class="token punctuation">(</span>DataFlavor<span class="token punctuation">.</span>imageFlavor<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> null<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>测试的这些软件都能正常保存</p>
+menu1<span class="token punctuation">.</span><span class="token function">setOnShowing</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>Event<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>Event event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"menu1.setOnShowing"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//已经显示</span>
+menu1<span class="token punctuation">.</span><span class="token function">setOnShown</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>Event<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>Event event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"menu1.setOnShown"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment" spellcheck="true">//添加Icon</span>
+MenuItem menuItem1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MenuItem</span><span class="token punctuation">(</span><span class="token string">"Item1"</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">ImageView</span><span class="token punctuation">(</span><span class="token string">"image\\stash.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+MenuItem menuItem2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MenuItem</span><span class="token punctuation">(</span><span class="token string">"Item2"</span><span class="token punctuation">,</span> <span class="token keyword">new</span> <span class="token class-name">ImageView</span><span class="token punctuation">(</span><span class="token string">"image\\unstash.png"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+MenuItem menuItem3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MenuItem</span><span class="token punctuation">(</span><span class="token string">"Item3"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">//MenuItem点击事件</span>
+menuItem1<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"menuItem1.setOnAction"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">//添加快捷键</span>
+menuItem1<span class="token punctuation">.</span><span class="token function">setAccelerator</span><span class="token punctuation">(</span>KeyCombination<span class="token punctuation">.</span><span class="token function">valueOf</span><span class="token punctuation">(</span><span class="token string">"Ctrl+N"</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment" spellcheck="true">//快捷键触发时回调</span>
+menuItem1<span class="token punctuation">.</span><span class="token function">setOnMenuValidation</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>Event<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>Event event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"menuItem1.setOnMenuValidation"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+menu1<span class="token punctuation">.</span><span class="token function">getItems</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>menuItem1<span class="token punctuation">,</span> menuItem2<span class="token punctuation">,</span> menuItem3<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -537,7 +554,7 @@ ImageIO<span class="token punctuation">.</span><span class="token function">writ
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/">http://luoshuaidev.github.io/2020/05/31/javafx-du-qu-jian-qie-ban-tu-pian-bing-bao-cun-tu-pian-dao-ben-di/</a>
+                    <a href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/">http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1011,26 +1028,26 @@ ImageIO<span class="token punctuation">.</span><span class="token function">writ
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/06/01/java11-class-fxmlloaderhelper-cannot-access-utils-because-module-javafx-graphics-does-not-export/">
+                <a href="/2020/07/02/javafx-menu-separatormenuitem-submenu/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/7.jpg" class="responsive-img" alt="Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="JavaFX Menu SeparatorMenuItem&amp;SubMenu">
                         
-                        <span class="card-title">Java11 class FXMLLoaderHelper cannot access Utils because module javafx.graphics does not export</span>
+                        <span class="card-title">JavaFX Menu SeparatorMenuItem&amp;SubMenu</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Exception in Application start method
-java.lang.reflect.InvocationTargetException
-Caused by: java.lang.RuntimeException:
+                            SeparatorMenuItem&amp;SubMenuSeparatorMenuItem
+直接添加到 MenuItem 中间
+SeparatorMenuItem separatorMenuItem = new SeparatorMenu
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-06-01
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-02
                         </span>
                         <span class="publish-author">
                             
@@ -1058,35 +1075,30 @@ Caused by: java.lang.RuntimeException:
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/30/javafx-effect/">
+                <a href="/2020/06/06/uniapp-pei-zhi-webpack-dev-server-dai-li-jie-jue-kai-fa-huan-jing-kua-yu-wen-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/21.jpg" class="responsive-img" alt="JavaFX Effect">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/16.jpg" class="responsive-img" alt="uniapp 配置webpack-dev-server代理 解决开发环境跨域问题">
                         
-                        <span class="card-title">JavaFX Effect</span>
+                        <span class="card-title">uniapp 配置webpack-dev-server代理 解决开发环境跨域问题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            EffectDropShadow
-InnerShadow
-Shadow
-BoxBlur
-GaussianBlur
-MotionBlur
-Bloom
-Glow
-SepiaTone
-Reflection
-ColorAdjust
-Lighting
+                            项目根目录下创建 vue.config.js
+module.exports = {
+  devServer: {
+    proxy: {
+      "/api": {
+        //代理 /api/xxx/xxx 的请求
+    
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
                             </span>
                         <span class="publish-author">
                             
@@ -1099,8 +1111,8 @@ Lighting
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaFX/">
-                        <span class="chip bg-color">JavaFX</span>
+                    <a href="/tags/uniapp/">
+                        <span class="chip bg-color">uniapp</span>
                     </a>
                     
                 </div>

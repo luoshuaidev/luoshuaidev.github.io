@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-06-06T05:02:08.798Z</updated>
+  <updated>2020-07-02T12:27:56.888Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,81 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX Menu RadioMenuItem&amp;CheckMenuItem&amp;CustomMenuItem</title>
+    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-radiomenuitem-checkmenuitem-custommenuitem/"/>
+    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-radiomenuitem-checkmenuitem-custommenuitem/</id>
+    <published>2020-07-02T12:20:25.000Z</published>
+    <updated>2020-07-02T12:27:56.888Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;MenuItem&quot;&gt;&lt;a href=&quot;#MenuItem&quot; class=&quot;headerlink&quot; title=&quot;MenuItem&quot;&gt;&lt;/a&gt;MenuItem&lt;/h1&gt;&lt;h2 id=&quot;RadioMenuItem&quot;&gt;&lt;a href=&quot;#RadioMenuItem&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu SeparatorMenuItem&amp;SubMenu</title>
+    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-separatormenuitem-submenu/"/>
+    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-separatormenuitem-submenu/</id>
+    <published>2020-07-02T12:17:54.000Z</published>
+    <updated>2020-07-02T12:27:56.888Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;SeparatorMenuItem-amp-SubMenu&quot;&gt;&lt;a href=&quot;#SeparatorMenuItem-amp-SubMenu&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu MenuBar&amp;Menu&amp;MenuItem</title>
+    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/"/>
+    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/</id>
+    <published>2020-07-02T12:16:21.000Z</published>
+    <updated>2020-07-02T12:27:56.888Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;MenuBar-amp-Menu-amp-MenuItem&quot;&gt;&lt;a href=&quot;#MenuBar-amp-Menu-amp-MenuItem&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>uniapp 配置webpack-dev-server代理 解决开发环境跨域问题</title>
@@ -434,81 +509,6 @@ java&lt;span class=&quot;token
         
         
           &lt;h1 id=&quot;布局操作&quot;&gt;&lt;a href=&quot;#布局操作&quot; class=&quot;headerlink&quot; title=&quot;布局操作&quot;&gt;&lt;/a&gt;布局操作&lt;/h1&gt;&lt;h2 id=&quot;添加子控件&quot;&gt;&lt;a href=&quot;#添加子控件&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 尺寸&amp;边界&amp;位置&amp;坐标</title>
-    <link href="http://luoshuaidev.github.io/2020/05/29/javafx-chi-cun-bian-jie-wei-zhi-zuo-biao/"/>
-    <id>http://luoshuaidev.github.io/2020/05/29/javafx-chi-cun-bian-jie-wei-zhi-zuo-biao/</id>
-    <published>2020-05-29T14:36:30.000Z</published>
-    <updated>2020-05-29T14:43:27.756Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;尺寸-amp-边界-amp-位置-amp-坐标&quot;&gt;&lt;a href=&quot;#尺寸-amp-边界-amp-位置-amp-坐标&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 Hyperlink WebView HTMLEditor</title>
-    <link href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/"/>
-    <id>http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-hyperlink-webview-htmleditor/</id>
-    <published>2020-05-28T12:51:45.000Z</published>
-    <updated>2020-05-28T14:13:23.044Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Hyperlink-WebView-HTMLEditor&quot;&gt;&lt;a href=&quot;#Hyperlink-WebView-HTMLEditor&quot; class=&quot;headerlink&quot; title=&quot;Hyperlink WebView
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 控件 Dialog</title>
-    <link href="http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-dialog/"/>
-    <id>http://luoshuaidev.github.io/2020/05/28/javafx-kong-jian-dialog/</id>
-    <published>2020-05-28T12:51:33.000Z</published>
-    <updated>2020-05-28T14:13:23.044Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Dialog&quot;&gt;&lt;a href=&quot;#Dialog&quot; class=&quot;headerlink&quot; title=&quot;Dialog&quot;&gt;&lt;/a&gt;Dialog&lt;/h1&gt;&lt;h2 id=&quot;Dialog-1&quot;&gt;&lt;a href=&quot;#Dialog-1&quot; class=&quot;headerlink&quot;
         
       
     
