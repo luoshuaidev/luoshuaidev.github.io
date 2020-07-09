@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2020-07-02T12:27:56.888Z</updated>
+  <updated>2020-07-09T13:13:48.060Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,131 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaFX 剪切板Clipboard</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-jian-qie-ban-clipboard/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-jian-qie-ban-clipboard/</id>
+    <published>2020-07-09T13:09:16.000Z</published>
+    <updated>2020-07-09T13:13:48.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;剪切板-Clipboard&quot;&gt;&lt;a href=&quot;#剪切板-Clipboard&quot; class=&quot;headerlink&quot; title=&quot;剪切板 Clipboard&quot;&gt;&lt;/a&gt;剪切板 Clipboard&lt;/h1&gt;&lt;h2 id=&quot;粘贴文本&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX FileChooser &amp; DirectoryChooser</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-filechooser-directorychooser/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-filechooser-directorychooser/</id>
+    <published>2020-07-09T13:08:59.000Z</published>
+    <updated>2020-07-09T13:13:48.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;FileChooser-amp-DirectoryChooser&quot;&gt;&lt;a href=&quot;#FileChooser-amp-DirectoryChooser&quot; class=&quot;headerlink&quot; title=&quot;FileChooser &amp;amp;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu MenuButton&amp;SplitMenuButton</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-menu-menubutton-splitmenubutton/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-menu-menubutton-splitmenubutton/</id>
+    <published>2020-07-09T12:54:26.000Z</published>
+    <updated>2020-07-09T13:00:38.478Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;MenuButton-amp-SplitMenuButton&quot;&gt;&lt;a href=&quot;#MenuButton-amp-SplitMenuButton&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu SeparatorMenuItem&amp;SubMenu</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-menu-separatormenuitem-submenu-1/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-menu-separatormenuitem-submenu-1/</id>
+    <published>2020-07-09T12:54:14.000Z</published>
+    <updated>2020-07-09T13:00:38.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;SeparatorMenuItem-amp-SubMenu&quot;&gt;&lt;a href=&quot;#SeparatorMenuItem-amp-SubMenu&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu ContextMenu</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-menu-contextmenu/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-menu-contextmenu/</id>
+    <published>2020-07-09T12:53:25.000Z</published>
+    <updated>2020-07-09T13:00:38.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;ContextMenu&quot;&gt;&lt;a href=&quot;#ContextMenu&quot; class=&quot;headerlink&quot; title=&quot;ContextMenu&quot;&gt;&lt;/a&gt;ContextMenu&lt;/h1&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaFX Menu RadioMenuItem&amp;CheckMenuItem&amp;CustomMenuItem</title>
@@ -383,132 +508,6 @@ java&lt;span class=&quot;token
         
         
           &lt;h1 id=&quot;Effect&quot;&gt;&lt;a href=&quot;#Effect&quot; class=&quot;headerlink&quot; title=&quot;Effect&quot;&gt;&lt;/a&gt;Effect&lt;/h1&gt;&lt;h2 id=&quot;DropShadow&quot;&gt;&lt;a href=&quot;#DropShadow&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 背景填充 线性渐变  径向渐变</title>
-    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-bei-jing-tian-chong-xian-xing-jian-bian-jing-xiang-jian-bian/"/>
-    <id>http://luoshuaidev.github.io/2020/05/30/javafx-bei-jing-tian-chong-xian-xing-jian-bian-jing-xiang-jian-bian/</id>
-    <published>2020-05-30T02:48:53.000Z</published>
-    <updated>2020-05-31T06:11:17.308Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/JavaFX/20200531140504912.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;pre
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX CSS</title>
-    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-css/"/>
-    <id>http://luoshuaidev.github.io/2020/05/30/javafx-css/</id>
-    <published>2020-05-30T02:48:45.000Z</published>
-    <updated>2020-05-31T06:11:17.308Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;CSS&quot;&gt;&lt;a href=&quot;#CSS&quot; class=&quot;headerlink&quot; title=&quot;CSS&quot;&gt;&lt;/a&gt;CSS&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 边框&amp;背景</title>
-    <link href="http://luoshuaidev.github.io/2020/05/30/javafx-bian-kuang-bei-jing/"/>
-    <id>http://luoshuaidev.github.io/2020/05/30/javafx-bian-kuang-bei-jing/</id>
-    <published>2020-05-30T02:48:18.000Z</published>
-    <updated>2020-05-31T06:11:17.308Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;边框-amp-背景&quot;&gt;&lt;a href=&quot;#边框-amp-背景&quot; class=&quot;headerlink&quot; title=&quot;边框&amp;amp;背景&quot;&gt;&lt;/a&gt;边框&amp;amp;背景&lt;/h1&gt;&lt;p&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX Stage</title>
-    <link href="http://luoshuaidev.github.io/2020/05/29/javafx-stage/"/>
-    <id>http://luoshuaidev.github.io/2020/05/29/javafx-stage/</id>
-    <published>2020-05-29T14:37:11.000Z</published>
-    <updated>2020-05-29T14:43:27.756Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Stage&quot;&gt;&lt;a href=&quot;#Stage&quot; class=&quot;headerlink&quot; title=&quot;Stage&quot;&gt;&lt;/a&gt;Stage&lt;/h1&gt;&lt;h2 id=&quot;尺寸&quot;&gt;&lt;a href=&quot;#尺寸&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX 布局操作</title>
-    <link href="http://luoshuaidev.github.io/2020/05/29/javafx-bu-ju-cao-zuo/"/>
-    <id>http://luoshuaidev.github.io/2020/05/29/javafx-bu-ju-cao-zuo/</id>
-    <published>2020-05-29T14:37:00.000Z</published>
-    <updated>2020-05-29T14:43:27.756Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;布局操作&quot;&gt;&lt;a href=&quot;#布局操作&quot; class=&quot;headerlink&quot; title=&quot;布局操作&quot;&gt;&lt;/a&gt;布局操作&lt;/h1&gt;&lt;h2 id=&quot;添加子控件&quot;&gt;&lt;a href=&quot;#添加子控件&quot; class=&quot;headerlink&quot;
         
       
     

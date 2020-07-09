@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="JavaFX 控件 Spinner, ">
+    <meta name="keywords" content="JavaFX FileChooser &amp; DirectoryChooser, ">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>JavaFX 控件 Spinner | </title>
+    <title>JavaFX FileChooser &amp; DirectoryChooser | </title>
     <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/libs/awesome/css/all.css">
@@ -288,12 +288,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">JavaFX 控件 Spinner</h1>
+                    <h1 class="description center-align post-title">JavaFX FileChooser &amp; DirectoryChooser</h1>
                 </div>
             </div>
         </div>
@@ -430,21 +430,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-07-09
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-05-26
+                    2020-07-09
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    232
+                    313
                 </div>
                 
 
@@ -466,53 +466,77 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Spinner"><a href="#Spinner" class="headerlink" title="Spinner"></a>Spinner</h1><p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200526225749.png" alt=""></p>
-<p>样式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/20200526225805.png" alt=""></p>
-<pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">//最小, 最大, 默认值, 步长</span>
-Spinner<span class="token operator">&lt;</span>Integer<span class="token operator">></span> spinner1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Spinner</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Spinner<span class="token operator">&lt;</span>Double<span class="token operator">></span> spinner2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Spinner</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token number">0.0</span><span class="token punctuation">,</span> <span class="token number">10.0</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-spinner1<span class="token punctuation">.</span><span class="token function">setEditable</span><span class="token punctuation">(</span><span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <h1 id="FileChooser-amp-DirectoryChooser"><a href="#FileChooser-amp-DirectoryChooser" class="headerlink" title="FileChooser &amp; DirectoryChooser"></a>FileChooser &amp; DirectoryChooser</h1><p>选择文件, 选择文件夹</p>
+<p><img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io@image/JavaFX/20200709211011188.png" alt=""></p>
+<pre class="line-numbers language-java"><code class="language-java">Button button1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"单选"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button button2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"多选"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button button3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"保存"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+Button button4 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Button</span><span class="token punctuation">(</span><span class="token string">"文件夹选择"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
+ObservableList<span class="token operator">&lt;</span>Node<span class="token operator">></span> children <span class="token operator">=</span> root<span class="token punctuation">.</span><span class="token function">getChildren</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+children<span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>button1<span class="token punctuation">,</span> button2<span class="token punctuation">,</span> button3<span class="token punctuation">,</span> button4<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-ObservableList<span class="token operator">&lt;</span>String<span class="token operator">></span> items <span class="token operator">=</span> FXCollections<span class="token punctuation">.</span><span class="token function">observableArrayList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-items<span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span><span class="token string">"A"</span><span class="token punctuation">,</span> <span class="token string">"B"</span><span class="token punctuation">,</span> <span class="token string">"C"</span><span class="token punctuation">,</span> <span class="token string">"D"</span><span class="token punctuation">,</span> <span class="token string">"E"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Spinner<span class="token operator">&lt;</span>String<span class="token operator">></span> spinner3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Spinner</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span>items<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-spinner3<span class="token punctuation">.</span><span class="token function">getStyleClass</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>Spinner<span class="token punctuation">.</span>STYLE_CLASS_SPLIT_ARROWS_HORIZONTAL<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-spinner1<span class="token punctuation">.</span><span class="token function">valueProperty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addListener</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">ChangeListener</span><span class="token operator">&lt;</span>Integer<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+button1<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">changed</span><span class="token punctuation">(</span>ObservableValue<span class="token operator">&lt;</span><span class="token operator">?</span> <span class="token keyword">extends</span> <span class="token class-name">Integer</span><span class="token operator">></span> observable<span class="token punctuation">,</span> Integer oldValue<span class="token punctuation">,</span> Integer newValue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"observable = "</span> <span class="token operator">+</span> observable <span class="token operator">+</span> <span class="token string">", oldValue = "</span> <span class="token operator">+</span> oldValue <span class="token operator">+</span> <span class="token string">", newValue = "</span> <span class="token operator">+</span> newValue<span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="SpinnerValueFactory"><a href="#SpinnerValueFactory" class="headerlink" title="SpinnerValueFactory"></a>SpinnerValueFactory</h2><pre class="line-numbers language-java"><code class="language-java">Student student1 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">"Student1"</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Student student2 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">"Student2"</span><span class="token punctuation">,</span> <span class="token number">11</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-Student student3 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Student</span><span class="token punctuation">(</span><span class="token string">"Student3"</span><span class="token punctuation">,</span> <span class="token number">12</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-ObservableList<span class="token operator">&lt;</span>Student<span class="token operator">></span> students <span class="token operator">=</span> FXCollections<span class="token punctuation">.</span><span class="token function">observableArrayList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-students<span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>student1<span class="token punctuation">,</span> student2<span class="token punctuation">,</span> student3<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-SpinnerValueFactory<span class="token operator">&lt;</span>Student<span class="token operator">></span> spinnerValueFactory <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">SpinnerValueFactory<span class="token punctuation">.</span>ListSpinnerValueFactory</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span>students<span class="token punctuation">)</span><span class="token punctuation">;</span>
-Spinner<span class="token operator">&lt;</span>Student<span class="token operator">></span> spinner4 <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Spinner</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-spinnerValueFactory<span class="token punctuation">.</span><span class="token function">setConverter</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">StringConverter</span><span class="token operator">&lt;</span>Student<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> String <span class="token function">toString</span><span class="token punctuation">(</span>Student object<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">if</span> <span class="token punctuation">(</span>object <span class="token operator">==</span> null<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">return</span> <span class="token string">""</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token keyword">return</span> object<span class="token punctuation">.</span>name <span class="token operator">+</span> <span class="token string">"-"</span> <span class="token operator">+</span> object<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token annotation punctuation">@Override</span>
-    <span class="token keyword">public</span> Student <span class="token function">fromString</span><span class="token punctuation">(</span>String string<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token keyword">return</span> null<span class="token punctuation">;</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        FileChooser fileChooser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">FileChooser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"选择图片"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">getExtensionFilters</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>
+                <span class="token keyword">new</span> <span class="token class-name">ExtensionFilter</span><span class="token punctuation">(</span><span class="token string">"图片类型"</span><span class="token punctuation">,</span> <span class="token string">"*.jpg"</span><span class="token punctuation">,</span> <span class="token string">"*.png"</span><span class="token punctuation">,</span> <span class="token string">"*.gif"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                <span class="token keyword">new</span> <span class="token class-name">ExtensionFilter</span><span class="token punctuation">(</span><span class="token string">"所有类型"</span><span class="token punctuation">,</span> <span class="token string">"*.*"</span><span class="token punctuation">)</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//单选</span>
+        File file <span class="token operator">=</span> fileChooser<span class="token punctuation">.</span><span class="token function">showOpenDialog</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Stage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"file = "</span> <span class="token operator">+</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//setValueFactory 要后调用</span>
-spinner4<span class="token punctuation">.</span><span class="token function">setValueFactory</span><span class="token punctuation">(</span>spinnerValueFactory<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+button2<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        FileChooser fileChooser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">FileChooser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"选择图片"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">getExtensionFilters</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>
+                <span class="token keyword">new</span> <span class="token class-name">ExtensionFilter</span><span class="token punctuation">(</span><span class="token string">"图片类型"</span><span class="token punctuation">,</span> <span class="token string">"*.jpg"</span><span class="token punctuation">,</span> <span class="token string">"*.png"</span><span class="token punctuation">,</span> <span class="token string">"*.gif"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                <span class="token keyword">new</span> <span class="token class-name">ExtensionFilter</span><span class="token punctuation">(</span><span class="token string">"所有类型"</span><span class="token punctuation">,</span> <span class="token string">"*.*"</span><span class="token punctuation">)</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//多选</span>
+        List<span class="token operator">&lt;</span>File<span class="token operator">></span> files <span class="token operator">=</span> fileChooser<span class="token punctuation">.</span><span class="token function">showOpenMultipleDialog</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Stage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"files = "</span> <span class="token operator">+</span> files<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+button3<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        FileChooser fileChooser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">FileChooser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"保存文件"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">setInitialFileName</span><span class="token punctuation">(</span><span class="token string">"InitialFileName"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        fileChooser<span class="token punctuation">.</span><span class="token function">getExtensionFilters</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addAll</span><span class="token punctuation">(</span>
+                <span class="token keyword">new</span> <span class="token class-name">ExtensionFilter</span><span class="token punctuation">(</span><span class="token string">"文本类型"</span><span class="token punctuation">,</span> <span class="token string">"*.txt"</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                <span class="token keyword">new</span> <span class="token class-name">ExtensionFilter</span><span class="token punctuation">(</span><span class="token string">"所有类型"</span><span class="token punctuation">,</span> <span class="token string">"*.*"</span><span class="token punctuation">)</span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">//保存</span>
+        File file <span class="token operator">=</span> fileChooser<span class="token punctuation">.</span><span class="token function">showSaveDialog</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Stage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"files = "</span> <span class="token operator">+</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">try</span> <span class="token punctuation">{</span>
+            <span class="token keyword">boolean</span> newFile <span class="token operator">=</span> file<span class="token punctuation">.</span><span class="token function">createNewFile</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span>newFile<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span><span class="token class-name">IOException</span> e<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            e<span class="token punctuation">.</span><span class="token function">printStackTrace</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+button4<span class="token punctuation">.</span><span class="token function">setOnAction</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">EventHandler</span><span class="token operator">&lt;</span>ActionEvent<span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Override</span>
+    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">handle</span><span class="token punctuation">(</span>ActionEvent event<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        DirectoryChooser directoryChooser <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">DirectoryChooser</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        directoryChooser<span class="token punctuation">.</span><span class="token function">setTitle</span><span class="token punctuation">(</span><span class="token string">"选择文件夹"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        File file <span class="token operator">=</span> directoryChooser<span class="token punctuation">.</span><span class="token function">showDialog</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">Stage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        System<span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"file = "</span> <span class="token operator">+</span> file<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -556,7 +580,7 @@ spinner4<span class="token punctuation">.</span><span class="token function">set
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-spinner/">http://luoshuaidev.github.io/2020/05/26/javafx-kong-jian-spinner/</a>
+                    <a href="http://luoshuaidev.github.io/2020/07/09/javafx-filechooser-directorychooser/">http://luoshuaidev.github.io/2020/07/09/javafx-filechooser-directorychooser/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1030,31 +1054,25 @@ spinner4<span class="token punctuation">.</span><span class="token function">set
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/05/26/javafx-kong-jian-slider/">
+                <a href="/2020/07/09/javafx-jian-qie-ban-clipboard/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/6.jpg" class="responsive-img" alt="JavaFX 控件 Slider">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/8.jpg" class="responsive-img" alt="JavaFX 剪切板Clipboard">
                         
-                        <span class="card-title">JavaFX 控件 Slider</span>
+                        <span class="card-title">JavaFX 剪切板Clipboard</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Slider
-//min max value
-Slider slider = new Slider(0, 10, 5);
-//设置当前值
-slider.setValue(6);
-
-slider.setPrefWidth(300);
-slid
+                            剪切板 Clipboard粘贴文本KeyCombination kc = new KeyCodeCombination(KeyCode.V, KeyCombination.SHORTCUT_DOWN);
+scene.getAccelerat
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-05-26
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-09
                         </span>
                         <span class="publish-author">
                             
@@ -1082,28 +1100,26 @@ slid
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/05/26/javafx-kong-jian-progressbar-progressindicator/">
+                <a href="/2020/07/09/javafx-menu-menubutton-splitmenubutton/">
                     <div class="card-image">
                         
                         
-                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="JavaFX 控件 ProgressBar&amp;ProgressIndicator">
+                        <img src="https://cdn.jsdelivr.net/gh/luoshuaidev/luoshuaidev.github.io/medias/featureimages/5.jpg" class="responsive-img" alt="JavaFX Menu MenuButton&amp;SplitMenuButton">
                         
-                        <span class="card-title">JavaFX 控件 ProgressBar&amp;ProgressIndicator</span>
+                        <span class="card-title">JavaFX Menu MenuButton&amp;SplitMenuButton</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            ProgressBar&amp;ProgressIndicatorProgressBar
-ProgressBar pb = new ProgressBar();
-pb.setPrefWidth(300);
-//设置进度
-pb.setProg
+                            MenuButton&amp;SplitMenuButtonMenuButton
+MenuButton menuButton = new MenuButton("MenuButton");
+menuButton.getItems().add
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-05-26
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-09
                             </span>
                         <span class="publish-author">
                             
