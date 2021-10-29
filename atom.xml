@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title></title>
+  
+  <subtitle> </subtitle>
+  <link href="http://luoshuaidev.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://luoshuaidev.github.io/"/>
+  <updated>2021-10-28T15:18:29.716Z</updated>
+  <id>http://luoshuaidev.github.io/</id>
+  
+  <author>
+    <name>luoshuaidev</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JS 修改 !important 样式</title>
+    <link href="http://luoshuaidev.github.io/2021/10/28/js-xiu-gai-important-yang-shi/"/>
+    <id>http://luoshuaidev.github.io/2021/10/28/js-xiu-gai-important-yang-shi/</id>
+    <published>2021-10-28T15:15:22.000Z</published>
+    <updated>2021-10-28T15:18:29.716Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h1&gt;&lt;h2 id=&quot;可以使用-setProperty&quot;&gt;&lt;a href=&quot;#可以使用-setProperty&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>js 数组方法 forEach map includes filter some every find findIndex reduce</title>
+    <link href="http://luoshuaidev.github.io/2020/12/12/js-shu-zu-fang-fa-foreach-map-includes-filter-some-every-find-findindex-reduce/"/>
+    <id>http://luoshuaidev.github.io/2020/12/12/js-shu-zu-fang-fa-foreach-map-includes-filter-some-every-find-findindex-reduce/</id>
+    <published>2020-12-12T14:04:13.000Z</published>
+    <updated>2020-12-12T14:18:46.174Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;forEach 普通遍历
+map 遍历 + 返回新数组, 不改变原数组
+includes 是否含有某值
+filter 返回符合条件的新数组, 不改变原数组
+some 一个就行 符合条件返回true
+every 全符合 否则返回false
+find</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaScript" scheme="http://luoshuaidev.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js 首字母大写 驼峰</title>
+    <link href="http://luoshuaidev.github.io/2020/12/12/js-shou-zi-mu-da-xie-tuo-feng/"/>
+    <id>http://luoshuaidev.github.io/2020/12/12/js-shou-zi-mu-da-xie-tuo-feng/</id>
+    <published>2020-12-12T14:04:00.000Z</published>
+    <updated>2020-12-12T14:18:18.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaScript" scheme="http://luoshuaidev.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS 时间日期格式化</title>
+    <link href="http://luoshuaidev.github.io/2020/12/12/js-shi-jian-ri-qi-ge-shi-hua/"/>
+    <id>http://luoshuaidev.github.io/2020/12/12/js-shi-jian-ri-qi-ge-shi-hua/</id>
+    <published>2020-12-12T14:03:52.000Z</published>
+    <updated>2020-12-12T14:18:18.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot;line-numbers language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaScript" scheme="http://luoshuaidev.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WebStorm 支持 rpx</title>
+    <link href="http://luoshuaidev.github.io/2020/12/12/webstorm-zhi-chi-rpx/"/>
+    <id>http://luoshuaidev.github.io/2020/12/12/webstorm-zhi-chi-rpx/</id>
+    <published>2020-12-12T14:03:26.000Z</published>
+    <updated>2020-12-12T14:08:49.587Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;目前 WebStorm 还不支持 国内特有的 rpx 单位.&lt;br&gt;写 rpx 格式化后会出错.&lt;/p&gt;
+&lt;p&gt;使用 &lt;code&gt;less&lt;/code&gt; 的 unit 可以解决这个问题&lt;br&gt;将 &lt;code&gt;XXrpx&lt;/code&gt; 改成 &lt;code&gt;unit(XX,</summary>
+        
+      
+    
+    
+    
+    
+    <category term="WebStorm Web" scheme="http://luoshuaidev.github.io/tags/WebStorm-Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uniapp stopPropagation 无效</title>
+    <link href="http://luoshuaidev.github.io/2020/12/12/uniapp-stoppropagation-wu-xiao/"/>
+    <id>http://luoshuaidev.github.io/2020/12/12/uniapp-stoppropagation-wu-xiao/</id>
+    <published>2020-12-12T14:03:10.000Z</published>
+    <updated>2020-12-12T14:06:28.422Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;官方说明&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;DCloud_UNI_GSQ&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;只支持使用修饰符，不支持使用 stopPropagation，因为这里的 event 对象并非浏览器的 evnet</summary>
+        
+      
+    
+    
+    
+    
+    <category term="uniapp" scheme="http://luoshuaidev.github.io/tags/uniapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>字体相关概念</title>
+    <link href="http://luoshuaidev.github.io/2020/12/12/zi-ti-xiang-guan-gai-nian/"/>
+    <id>http://luoshuaidev.github.io/2020/12/12/zi-ti-xiang-guan-gai-nian/</id>
+    <published>2020-12-12T14:00:34.000Z</published>
+    <updated>2020-12-12T14:05:01.500Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;字体基本概念&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="字体 Web Android" scheme="http://luoshuaidev.github.io/tags/%E5%AD%97%E4%BD%93-Web-Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX 剪切板Clipboard</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-jian-qie-ban-clipboard/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-jian-qie-ban-clipboard/</id>
+    <published>2020-07-09T13:09:16.000Z</published>
+    <updated>2020-07-09T13:13:48.060Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;剪切板-Clipboard&quot;&gt;&lt;a href=&quot;#剪切板-Clipboard&quot; class=&quot;headerlink&quot; title=&quot;剪切板 Clipboard&quot;&gt;&lt;/a&gt;剪切板 Clipboard&lt;/h1&gt;&lt;h2 id=&quot;粘贴文本&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX FileChooser &amp; DirectoryChooser</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-filechooser-directorychooser/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-filechooser-directorychooser/</id>
+    <published>2020-07-09T13:08:59.000Z</published>
+    <updated>2020-07-09T13:13:48.060Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;FileChooser-amp-DirectoryChooser&quot;&gt;&lt;a href=&quot;#FileChooser-amp-DirectoryChooser&quot; class=&quot;headerlink&quot; title=&quot;FileChooser &amp;amp;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu MenuButton&amp;SplitMenuButton</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-menu-menubutton-splitmenubutton/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-menu-menubutton-splitmenubutton/</id>
+    <published>2020-07-09T12:54:26.000Z</published>
+    <updated>2020-07-09T13:00:38.478Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;MenuButton-amp-SplitMenuButton&quot;&gt;&lt;a href=&quot;#MenuButton-amp-SplitMenuButton&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu SeparatorMenuItem&amp;SubMenu</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-menu-separatormenuitem-submenu-1/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-menu-separatormenuitem-submenu-1/</id>
+    <published>2020-07-09T12:54:14.000Z</published>
+    <updated>2020-07-09T13:00:38.479Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SeparatorMenuItem-amp-SubMenu&quot;&gt;&lt;a href=&quot;#SeparatorMenuItem-amp-SubMenu&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu ContextMenu</title>
+    <link href="http://luoshuaidev.github.io/2020/07/09/javafx-menu-contextmenu/"/>
+    <id>http://luoshuaidev.github.io/2020/07/09/javafx-menu-contextmenu/</id>
+    <published>2020-07-09T12:53:25.000Z</published>
+    <updated>2020-07-09T13:00:38.479Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ContextMenu&quot;&gt;&lt;a href=&quot;#ContextMenu&quot; class=&quot;headerlink&quot; title=&quot;ContextMenu&quot;&gt;&lt;/a&gt;ContextMenu&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu RadioMenuItem&amp;CheckMenuItem&amp;CustomMenuItem</title>
+    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-radiomenuitem-checkmenuitem-custommenuitem/"/>
+    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-radiomenuitem-checkmenuitem-custommenuitem/</id>
+    <published>2020-07-02T12:20:25.000Z</published>
+    <updated>2020-07-02T12:27:56.888Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;MenuItem&quot;&gt;&lt;a href=&quot;#MenuItem&quot; class=&quot;headerlink&quot; title=&quot;MenuItem&quot;&gt;&lt;/a&gt;MenuItem&lt;/h1&gt;&lt;h2 id=&quot;RadioMenuItem&quot;&gt;&lt;a href=&quot;#RadioMenuItem&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu SeparatorMenuItem&amp;SubMenu</title>
+    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-separatormenuitem-submenu/"/>
+    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-separatormenuitem-submenu/</id>
+    <published>2020-07-02T12:17:54.000Z</published>
+    <updated>2020-07-02T12:27:56.888Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;SeparatorMenuItem-amp-SubMenu&quot;&gt;&lt;a href=&quot;#SeparatorMenuItem-amp-SubMenu&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaFX Menu MenuBar&amp;Menu&amp;MenuItem</title>
+    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/"/>
+    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/</id>
+    <published>2020-07-02T12:16:21.000Z</published>
+    <updated>2020-07-02T12:27:56.888Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;MenuBar-amp-Menu-amp-MenuItem&quot;&gt;&lt;a href=&quot;#MenuBar-amp-Menu-amp-MenuItem&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uniapp 配置webpack-dev-server代理 解决开发环境跨域问题</title>
+    <link href="http://luoshuaidev.github.io/2020/06/06/uniapp-pei-zhi-webpack-dev-server-dai-li-jie-jue-kai-fa-huan-jing-kua-yu-wen-ti/"/>
+    <id>http://luoshuaidev.github.io/2020/06/06/uniapp-pei-zhi-webpack-dev-server-dai-li-jie-jue-kai-fa-huan-jing-kua-yu-wen-ti/</id>
+    <published>2020-06-06T04:58:12.000Z</published>
+    <updated>2020-06-06T05:02:08.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;项目根目录下创建 &lt;code&gt;vue.config.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+    <category term="uniapp" scheme="http://luoshuaidev.github.io/tags/uniapp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浏览器的同源策略 同源的定义</title>
+    <link href="http://luoshuaidev.github.io/2020/06/06/liu-lan-qi-de-tong-yuan-ce-lue-tong-yuan-de-ding-yi/"/>
+    <id>http://luoshuaidev.github.io/2020/06/06/liu-lan-qi-de-tong-yuan-ce-lue-tong-yuan-de-ding-yi/</id>
+    <published>2020-06-06T04:58:04.000Z</published>
+    <updated>2020-06-06T05:01:59.683Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;同源&quot;&gt;&lt;a href=&quot;#同源&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Web" scheme="http://luoshuaidev.github.io/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maven插件 maven-shade-plugin</title>
+    <link href="http://luoshuaidev.github.io/2020/06/06/maven-cha-jian-maven-shade-plugin/"/>
+    <id>http://luoshuaidev.github.io/2020/06/06/maven-cha-jian-maven-shade-plugin/</id>
+    <published>2020-06-06T04:57:56.000Z</published>
+    <updated>2020-06-06T05:01:30.408Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原文:&lt;br&gt;&lt;a href=&quot;https://my.oschina.net/u/2377110/blog/1585553&quot;&gt;https://my.oschina.net/u/2377110/blog/1585553&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网上有一些</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java Maven" scheme="http://luoshuaidev.github.io/tags/Java-Maven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Could not transfer artifact xxx from/to alimaven (http://maven.aliyun.com/nexus/content/groups/publi</title>
+    <link href="http://luoshuaidev.github.io/2020/06/06/could-not-transfer-artifact-xxx-from-to-alimaven-http-maven-aliyun-com-nexus-content-groups-publi/"/>
+    <id>http://luoshuaidev.github.io/2020/06/06/could-not-transfer-artifact-xxx-from-to-alimaven-http-maven-aliyun-com-nexus-content-groups-publi/</id>
+    <published>2020-06-06T04:57:44.000Z</published>
+    <updated>2020-06-06T05:01:10.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Could not transfer artifact xxx from/to alimaven (&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java Maven" scheme="http://luoshuaidev.github.io/tags/Java-Maven/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>win10 jar 不能双击运行</title>
+    <link href="http://luoshuaidev.github.io/2020/06/06/win10-jar-bu-neng-shuang-ji-yun-xing/"/>
+    <id>http://luoshuaidev.github.io/2020/06/06/win10-jar-bu-neng-shuang-ji-yun-xing/</id>
+    <published>2020-06-06T04:57:35.000Z</published>
+    <updated>2020-06-06T05:00:47.810Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;win10-jar-不能双击运行&quot;&gt;&lt;a href=&quot;#win10-jar-不能双击运行&quot; class=&quot;headerlink&quot; title=&quot;win10 jar 不能双击运行&quot;&gt;&lt;/a&gt;win10 jar 不能双击运行&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Java Windows" scheme="http://luoshuaidev.github.io/tags/Java-Windows/"/>
+    
+  </entry>
+  
+</feed>
