@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>hexo Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.</title>
+      <link href="/2021/10/28/hexo-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/"/>
+      <url>/2021/10/28/hexo-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/</url>
+      
+        <content type="html"><![CDATA[<h1 id="hexo-Support-for-password-authentication-was-removed-on-August-13-2021-Please-use-a-personal-access-token-instead"><a href="#hexo-Support-for-password-authentication-was-removed-on-August-13-2021-Please-use-a-personal-access-token-instead" class="headerlink" title="hexo Support for password authentication was removed on August 13, 2021. Please use a personal access token instead."></a>hexo Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.</h1><p>先在 github 生成 token</p><p>Github-&gt;Settings-&gt;Developer Settings-&gt;Personal access tokens-&gt;”generate personal access tokens”</p><p>然后在 <code>_config.yml -&gt; deploy</code> 中修改 repo</p><pre><code>修改前repo: https://uasename:password@github.com/uasename/uasename.github.io.git修改后repo: https://your_token@github.com/uasename/uasename.github.io.git</code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JS 修改 !important 样式</title>
       <link href="/2021/10/28/js-xiu-gai-important-yang-shi/"/>
       <url>/2021/10/28/js-xiu-gai-important-yang-shi/</url>

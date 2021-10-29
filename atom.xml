@@ -6,7 +6,7 @@
   <link href="http://luoshuaidev.github.io/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2021-10-28T15:18:29.716Z</updated>
+  <updated>2021-10-28T15:51:28.351Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.</title>
+    <link href="http://luoshuaidev.github.io/2021/10/28/hexo-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/"/>
+    <id>http://luoshuaidev.github.io/2021/10/28/hexo-support-for-password-authentication-was-removed-on-august-13-2021-please-use-a-personal-access-token-instead/</id>
+    <published>2021-10-28T15:50:58.000Z</published>
+    <updated>2021-10-28T15:51:28.351Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;hexo-Support-for-password-authentication-was-removed-on-August-13-2021-Please-use-a-personal-access-token-instead&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>JS 修改 !important 样式</title>
@@ -463,29 +484,6 @@ find</summary>
     
     
     <category term="Java Maven" scheme="http://luoshuaidev.github.io/tags/Java-Maven/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>win10 jar 不能双击运行</title>
-    <link href="http://luoshuaidev.github.io/2020/06/06/win10-jar-bu-neng-shuang-ji-yun-xing/"/>
-    <id>http://luoshuaidev.github.io/2020/06/06/win10-jar-bu-neng-shuang-ji-yun-xing/</id>
-    <published>2020-06-06T04:57:35.000Z</published>
-    <updated>2020-06-06T05:00:47.810Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;win10-jar-不能双击运行&quot;&gt;&lt;a href=&quot;#win10-jar-不能双击运行&quot; class=&quot;headerlink&quot; title=&quot;win10 jar 不能双击运行&quot;&gt;&lt;/a&gt;win10 jar 不能双击运行&lt;/h1&gt;&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Java Windows" scheme="http://luoshuaidev.github.io/tags/Java-Windows/"/>
     
   </entry>
   
