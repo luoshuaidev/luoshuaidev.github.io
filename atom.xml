@@ -6,7 +6,7 @@
   <link href="http://luoshuaidev.github.io/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2021-10-28T15:51:28.351Z</updated>
+  <updated>2021-11-04T14:01:06.114Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VUE 不同语言使用不同 CSS</title>
+    <link href="http://luoshuaidev.github.io/2021/11/04/vue-bu-tong-yu-yan-shi-yong-bu-tong-css/"/>
+    <id>http://luoshuaidev.github.io/2021/11/04/vue-bu-tong-yu-yan-shi-yong-bu-tong-css/</id>
+    <published>2021-11-04T13:49:52.000Z</published>
+    <updated>2021-11-04T14:01:06.114Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;VUE 国际化使用了多语言 插件 &lt;code&gt;vue-i18n&lt;/code&gt;, 但是还遇到不同语言文本长度不一致等问题.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;解决方法&quot;&gt;&lt;a href=&quot;#解决方法&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>VUE 使用 localStorage</title>
+    <link href="http://luoshuaidev.github.io/2021/11/04/vue-shi-yong-localstorage/"/>
+    <id>http://luoshuaidev.github.io/2021/11/04/vue-shi-yong-localstorage/</id>
+    <published>2021-11-04T13:49:28.000Z</published>
+    <updated>2021-11-04T14:04:44.984Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://cn.vuejs.org/v2/cookbook/client-side-storage.html&quot;&gt;客户端存储 — Vue.js&lt;/a&gt;&lt;br&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.</title>
@@ -436,54 +481,6 @@ find</summary>
     
     
     <category term="Web" scheme="http://luoshuaidev.github.io/tags/Web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Maven插件 maven-shade-plugin</title>
-    <link href="http://luoshuaidev.github.io/2020/06/06/maven-cha-jian-maven-shade-plugin/"/>
-    <id>http://luoshuaidev.github.io/2020/06/06/maven-cha-jian-maven-shade-plugin/</id>
-    <published>2020-06-06T04:57:56.000Z</published>
-    <updated>2020-06-06T05:01:30.408Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;原文:&lt;br&gt;&lt;a href=&quot;https://my.oschina.net/u/2377110/blog/1585553&quot;&gt;https://my.oschina.net/u/2377110/blog/1585553&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;网上有一些</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Java Maven" scheme="http://luoshuaidev.github.io/tags/Java-Maven/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Could not transfer artifact xxx from/to alimaven (http://maven.aliyun.com/nexus/content/groups/publi</title>
-    <link href="http://luoshuaidev.github.io/2020/06/06/could-not-transfer-artifact-xxx-from-to-alimaven-http-maven-aliyun-com-nexus-content-groups-publi/"/>
-    <id>http://luoshuaidev.github.io/2020/06/06/could-not-transfer-artifact-xxx-from-to-alimaven-http-maven-aliyun-com-nexus-content-groups-publi/</id>
-    <published>2020-06-06T04:57:44.000Z</published>
-    <updated>2020-06-06T05:01:10.903Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;Could not transfer artifact xxx from/to alimaven (&lt;a</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Java Maven" scheme="http://luoshuaidev.github.io/tags/Java-Maven/"/>
     
   </entry>
   
