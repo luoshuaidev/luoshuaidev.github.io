@@ -6,7 +6,7 @@
   <link href="http://luoshuaidev.github.io/atom.xml" rel="self"/>
   
   <link href="http://luoshuaidev.github.io/"/>
-  <updated>2021-11-04T14:01:06.114Z</updated>
+  <updated>2021-11-25T07:20:35.906Z</updated>
   <id>http://luoshuaidev.github.io/</id>
   
   <author>
@@ -15,6 +15,74 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>console.log 带时间输出</title>
+    <link href="http://luoshuaidev.github.io/2021/11/25/console-log-dai-shi-jian-shu-chu/"/>
+    <id>http://luoshuaidev.github.io/2021/11/25/console-log-dai-shi-jian-shu-chu/</id>
+    <published>2021-11-25T07:18:33.000Z</published>
+    <updated>2021-11-25T07:20:35.906Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;适用于 &lt;code&gt;nodejs&lt;/code&gt; 环境, 浏览器可以直接设置显示时间&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用VSCode编辑有道云笔记md</title>
+    <link href="http://luoshuaidev.github.io/2021/11/25/shi-yong-vscode-bian-ji-you-dao-yun-bi-ji-md/"/>
+    <id>http://luoshuaidev.github.io/2021/11/25/shi-yong-vscode-bian-ji-you-dao-yun-bi-ji-md/</id>
+    <published>2021-11-25T07:13:10.000Z</published>
+    <updated>2021-11-25T07:17:00.521Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;有道云笔记的 md 编辑体验太糟糕, VSCode 则很好, 但是有道云笔记不支持使用外部编辑器打开&lt;br&gt;而且有道创建的真实文件路径太深, 和 UI 上显示的也不一致&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下面是使用 VSCode</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>node 调用 cmd 命令</title>
+    <link href="http://luoshuaidev.github.io/2021/11/25/node-diao-yong-cmd-ming-ling/"/>
+    <id>http://luoshuaidev.github.io/2021/11/25/node-diao-yong-cmd-ming-ling/</id>
+    <published>2021-11-25T07:06:30.000Z</published>
+    <updated>2021-11-25T07:09:08.020Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;例如使用 &lt;code&gt;VSCode&lt;/code&gt; 打开某个文件&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>VUE 不同语言使用不同 CSS</title>
@@ -411,76 +479,6 @@ find</summary>
     
     
     <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaFX Menu MenuBar&amp;Menu&amp;MenuItem</title>
-    <link href="http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/"/>
-    <id>http://luoshuaidev.github.io/2020/07/02/javafx-menu-menubar-menu-menuitem/</id>
-    <published>2020-07-02T12:16:21.000Z</published>
-    <updated>2020-07-02T12:27:56.888Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;MenuBar-amp-Menu-amp-MenuItem&quot;&gt;&lt;a href=&quot;#MenuBar-amp-Menu-amp-MenuItem&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="JavaFX" scheme="http://luoshuaidev.github.io/tags/JavaFX/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>uniapp 配置webpack-dev-server代理 解决开发环境跨域问题</title>
-    <link href="http://luoshuaidev.github.io/2020/06/06/uniapp-pei-zhi-webpack-dev-server-dai-li-jie-jue-kai-fa-huan-jing-kua-yu-wen-ti/"/>
-    <id>http://luoshuaidev.github.io/2020/06/06/uniapp-pei-zhi-webpack-dev-server-dai-li-jie-jue-kai-fa-huan-jing-kua-yu-wen-ti/</id>
-    <published>2020-06-06T04:58:12.000Z</published>
-    <updated>2020-06-06T05:02:08.798Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;项目根目录下创建 &lt;code&gt;vue.config.js&lt;/code&gt;&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token</summary>
-        
-      
-    
-    
-    
-    
-    <category term="uniapp" scheme="http://luoshuaidev.github.io/tags/uniapp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>浏览器的同源策略 同源的定义</title>
-    <link href="http://luoshuaidev.github.io/2020/06/06/liu-lan-qi-de-tong-yuan-ce-lue-tong-yuan-de-ding-yi/"/>
-    <id>http://luoshuaidev.github.io/2020/06/06/liu-lan-qi-de-tong-yuan-ce-lue-tong-yuan-de-ding-yi/</id>
-    <published>2020-06-06T04:58:04.000Z</published>
-    <updated>2020-06-06T05:01:59.683Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;同源&quot;&gt;&lt;a href=&quot;#同源&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Web" scheme="http://luoshuaidev.github.io/tags/Web/"/>
     
   </entry>
   
